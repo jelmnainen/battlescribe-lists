@@ -2,8 +2,8 @@
 <roster id="3613-ed55-0722-ed04" name="Crush the Mon&apos;Keigh (and laugh while doing it)" battleScribeVersion="2.03" gameSystemId="28ec-711c-d87f-3aeb" gameSystemName="Warhammer 40,000 8th Edition" gameSystemRevision="120" xmlns="http://www.battlescribe.net/schema/rosterSchema">
   <costs>
     <cost name=" PL" typeId="e356-c769-5920-6e14" value="102.0"/>
-    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="4.0"/>
-    <cost name="pts" typeId="points" value="2000.0"/>
+    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="5.0"/>
+    <cost name="pts" typeId="points" value="1998.0"/>
   </costs>
   <costLimits>
     <costLimit name="pts" typeId="points" value="2000.0"/>
@@ -57,9 +57,9 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="6f3c-3291-8001-7f86" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="375b-67d6-ebb9-a283" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="bad2-425c-4676-2728" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+            <category id="1d0c-0503-ab9f-86db" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="e5db-6edc-7219-da51" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="1bec-fd68-f9e7-d24c" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
           </categories>
         </selection>
         <selection id="6f82-31d6-b366-e488" name="Dire Avengers" entryId="8a44-5aa8-9fc9-9efc::330c-452b-9923-5072" number="1" type="unit">
@@ -244,443 +244,11 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="b734-622d-23e7-225e" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="c478-de97-f9ea-bff7" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
-            <category id="7c1c-73a5-e3bb-6411" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
-            <category id="39e9-0192-15b2-c983" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="6bb7-ed58-defe-ddfe" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-          </categories>
-        </selection>
-        <selection id="59c8-5d8b-56f7-3bb3" name="Guardian Defenders" entryId="c353-858f-36ed-23d4::0341-e29a-e0ec-acd4" number="1" type="unit">
-          <profiles>
-            <profile id="c353-858f-36ed-23d4::e336-16ea-3426-4865::0717-5e61-82ac-ab50" name="Ancient Doom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls in the Fight phase for this unit in a turn in which it charges or is charged by a SLAANESH unit. However, you must add 1 to Morale tests for this unit if it is within 3&quot; of any SLAANESH units.</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="c353-858f-36ed-23d4::e26c-f5d4-3840-38ee::56e7-c06e-e0f4-ee45" name="Battle Focus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit moves or Advances in its Movement phase, weapons (excluding Heavy weapons) are used as if the unit had remained stationary.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selections>
-            <selection id="7285-fdf2-454a-e1ef" name="Guardian Defender" entryId="c353-858f-36ed-23d4::c758-aaf5-4754-8653" number="20" type="model">
-              <profiles>
-                <profile id="c353-858f-36ed-23d4::9f24-d5b7-8d40-813b" name="Guardian Defender" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selections>
-                <selection id="c5d1-46b7-67eb-e4bf" name="Shuriken Catapult" entryId="c353-858f-36ed-23d4::52e5-2c4d-f31d-2306::1d13-3a9a-37d6-1735" number="20" type="upgrade">
-                  <profiles>
-                    <profile id="c353-858f-36ed-23d4::52e5-2c4d-f31d-2306::dc2f-3dd4-422f-6ed4::9050-6d3d-65ed-9eef" name="Shuriken Catapult" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3 instead of 0.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                  </costs>
-                </selection>
-                <selection id="849e-8bc2-9db1-1454" name="Plasma Grenades" entryId="c353-858f-36ed-23d4::94d6-a95f-c32a-3524::b7fa-f88c-305c-534f" number="20" type="upgrade">
-                  <profiles>
-                    <profile id="c353-858f-36ed-23d4::94d6-a95f-c32a-3524::9681-d218-8c01-af9a::6e3d-fd19-f7bc-3a3d" name="Plasma Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                  </costs>
-                </selection>
-              </selections>
-              <costs>
-                <cost name="pts" typeId="points" value="160.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-              <categories>
-                <category id="9dcd-bcbb-d96f-69ee" name="Guardian Defenders" entryId="18ed-c84e-77ae-c059" primary="false"/>
-              </categories>
-            </selection>
-            <selection id="84b8-a1ba-2679-0692" name="Guardian Heavy Weapons Platform" entryId="c353-858f-36ed-23d4::8cb4-c382-d67e-3d08" number="1" type="upgrade">
-              <profiles>
-                <profile id="c353-858f-36ed-23d4::df84-9429-5ae4-da00" name="Guardian Heavy Weapons Platform" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
-                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
-                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="c353-858f-36ed-23d4::d1dc-ad81-bf74-e156" name="Crewed Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Heavy Weapon Platform can only fire its ranged weapon if a Guardian from this unit is within 3&quot; and &apos;fires&apos; it instead of shooting any of their own weapons. A single Guardian cannot operate multiple Heavy Weapon Platforms in this way in a single turn.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="c353-858f-36ed-23d4::247d-4b83-76dc-c636" name="Heavy Weapon Platform - Keywords" hidden="false" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
-                  <characteristics>
-                    <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">Aeldari, Asuryani, Warhost, &lt;CRAFTWORLD&gt;</characteristic>
-                    <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Infantry, Artillery, Guardian, Heavy Weapons Platform</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selections>
-                <selection id="4397-5ae7-bd0a-20ab" name="Starcannon" entryId="c353-858f-36ed-23d4::994d-77a0-41df-a797::9d6e-c587-51bc-ec7e::c628-671e-285b-b6bf" entryGroupId="c353-858f-36ed-23d4::994d-77a0-41df-a797::7d84-2892-c4e1-b2a1" number="1" type="upgrade">
-                  <profiles>
-                    <profile id="c353-858f-36ed-23d4::994d-77a0-41df-a797::9d6e-c587-51bc-ec7e::8f17-5eac-b719-7788::14c5-7101-fb1d-0056" name="Starcannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="pts" typeId="points" value="13.0"/>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                  </costs>
-                </selection>
-              </selections>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-              <categories>
-                <category id="b6da-eaa7-3575-c639" name="Heavy Weapons Platform" entryId="7a12-41e8-46eb-e204" primary="false"/>
-                <category id="a4c0-86c9-efdb-9623" name="Artillery" entryId="ae37-74e2-8391-d0f8" primary="false"/>
-              </categories>
-            </selection>
-            <selection id="bf66-549f-8f59-700a" name="Guardian Heavy Weapons Platform" entryId="c353-858f-36ed-23d4::8cb4-c382-d67e-3d08" number="1" type="upgrade">
-              <profiles>
-                <profile id="c353-858f-36ed-23d4::df84-9429-5ae4-da00" name="Guardian Heavy Weapons Platform" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
-                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
-                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
-                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="c353-858f-36ed-23d4::d1dc-ad81-bf74-e156" name="Crewed Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Heavy Weapon Platform can only fire its ranged weapon if a Guardian from this unit is within 3&quot; and &apos;fires&apos; it instead of shooting any of their own weapons. A single Guardian cannot operate multiple Heavy Weapon Platforms in this way in a single turn.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="c353-858f-36ed-23d4::247d-4b83-76dc-c636" name="Heavy Weapon Platform - Keywords" hidden="false" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
-                  <characteristics>
-                    <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">Aeldari, Asuryani, Warhost, &lt;CRAFTWORLD&gt;</characteristic>
-                    <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Infantry, Artillery, Guardian, Heavy Weapons Platform</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selections>
-                <selection id="b8b8-b49e-d857-d896" name="Starcannon" entryId="c353-858f-36ed-23d4::994d-77a0-41df-a797::9d6e-c587-51bc-ec7e::c628-671e-285b-b6bf" entryGroupId="c353-858f-36ed-23d4::994d-77a0-41df-a797::7d84-2892-c4e1-b2a1" number="1" type="upgrade">
-                  <profiles>
-                    <profile id="c353-858f-36ed-23d4::994d-77a0-41df-a797::9d6e-c587-51bc-ec7e::8f17-5eac-b719-7788::14c5-7101-fb1d-0056" name="Starcannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="pts" typeId="points" value="13.0"/>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                  </costs>
-                </selection>
-              </selections>
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-              <categories>
-                <category id="7eaf-bf93-397a-1fc0" name="Heavy Weapons Platform" entryId="7a12-41e8-46eb-e204" primary="false"/>
-                <category id="db30-a1ec-c26a-0d0a" name="Artillery" entryId="ae37-74e2-8391-d0f8" primary="false"/>
-              </categories>
-            </selection>
-          </selections>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-          </costs>
-          <categories>
-            <category id="8baf-0d0b-06df-0733" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="bf80-10a1-59f2-647e" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="e809-a83f-558d-0155" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="3d55-a852-79ac-a391" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="83b4-c1ec-09b4-702e" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-            <category id="6d80-ff72-ff6b-6fa9" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-            <category id="e308-8286-f651-92c0" name="Guardian" entryId="3d7b-e0f0-9b75-28e9" primary="false"/>
-          </categories>
-        </selection>
-        <selection id="ded8-0f16-6342-5873" name="Farseer" entryId="886e-7355-c1fd-a3ca::85ec-b193-d2df-32cc" number="1" type="model">
-          <profiles>
-            <profile id="886e-7355-c1fd-a3ca::5523-58be-820b-db47" name="Farseer" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-              <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
-                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
-                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
-                <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-                <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-                <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
-                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
-                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="886e-7355-c1fd-a3ca::b8b0-03f5-1686-590e::0717-5e61-82ac-ab50" name="Ancient Doom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls in the Fight phase for this unit in a turn in which it charges or is charged by a SLAANESH unit. However, you must add 1 to Morale tests for this unit if it is within 3&quot; of any SLAANESH units.</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="886e-7355-c1fd-a3ca::db38-55d5-cd00-edb0::56e7-c06e-e0f4-ee45" name="Battle Focus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit moves or Advances in its Movement phase, weapons (excluding Heavy weapons) are used as if the unit had remained stationary.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selections>
-            <selection id="c896-8812-29e4-ef93" name="Shuriken Pistol" entryId="886e-7355-c1fd-a3ca::d3cf-65f1-7ba3-ac37::9d57-b32e-13bd-d85b" number="1" type="upgrade">
-              <profiles>
-                <profile id="886e-7355-c1fd-a3ca::d3cf-65f1-7ba3-ac37::661c-11df-fd15-ce9e::56bb-69aa-22ea-acb9" name="Shuriken pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3 instead of 0.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="c2ec-2cc1-917c-17d2" name="Runes of the Farseer" entryId="886e-7355-c1fd-a3ca::6458-0a51-babe-5eff::a87c-cada-0755-be79" number="1" type="upgrade">
-              <profiles>
-                <profile id="886e-7355-c1fd-a3ca::6458-0a51-babe-5eff::e6ef-1fb9-9760-97c6" name="Runes of the Farseer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once in each Psychic phase, you can re-roll any number of dice used for this model&apos;s attempt to manifest or deny a psychic power.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="6d79-200e-a5d9-ae20" name="Ghosthelm" entryId="886e-7355-c1fd-a3ca::70e7-cd4b-bb76-399d::d5ab-14f4-66d1-e77f" number="1" type="upgrade">
-              <profiles>
-                <profile id="886e-7355-c1fd-a3ca::70e7-cd4b-bb76-399d::51be-083f-30a3-70f2" name="Ghosthelm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 whenever this model suffers a mortal wound, adding 3 to the roll if the mortal wound was inflicted as a result of the psyker suffering Perils of the Warp. On a roll of 5+, that wound is ignored.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="c76c-da7b-1ba6-5648" name="Rune Armour" entryId="886e-7355-c1fd-a3ca::17d3-a001-6bd6-0e7a::afbb-a355-ff30-9cd6" number="1" type="upgrade">
-              <profiles>
-                <profile id="886e-7355-c1fd-a3ca::17d3-a001-6bd6-0e7a::14fb-dd50-b74a-65b0::784f-bdec-32e3-7c68" name="Rune Armour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 4+ invulnerable save.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="a740-bb30-3f25-78f8" name="Psyker (Farseer)" entryId="886e-7355-c1fd-a3ca::7bc8-373b-8779-f2ab::c479-a27d-530b-44f4" number="1" type="upgrade">
-              <profiles>
-                <profile id="886e-7355-c1fd-a3ca::7bc8-373b-8779-f2ab::e504-4ac6-c3e5-ed87::5518-d72d-9e84-77a8" name="Psyker (Farseer)" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
-                  <characteristics>
-                    <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
-                    <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">2</characteristic>
-                    <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">2 powers from Runes of Fate and one from Runes of Fortune</characteristic>
-                    <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="f5e4-340d-7022-9a8b" name="Witchblade" entryId="886e-7355-c1fd-a3ca::fa70-00e0-40f8-3eda::b3fe-0376-e87c-cc34::6dc8-22dc-4168-84f5" entryGroupId="886e-7355-c1fd-a3ca::fa70-00e0-40f8-3eda::3b0b-35d5-d59d-d953" number="1" type="upgrade">
-              <profiles>
-                <profile id="886e-7355-c1fd-a3ca::fa70-00e0-40f8-3eda::b3fe-0376-e87c-cc34::77d9-6be1-186b-1a1f::b439-d419-0a47-e680" name="Witchblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon always wounds on a roll of 2+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="9f93-f5b3-6c87-1012" name="0. Smite" entryId="886e-7355-c1fd-a3ca::b988-1f54-4c51-f14c::1f12-4195-d7e6-36ae" entryGroupId="886e-7355-c1fd-a3ca::b988-1f54-4c51-f14c::2811-a32c-6768-4a0d" number="1" type="upgrade">
-              <profiles>
-                <profile id="886e-7355-c1fd-a3ca::b988-1f54-4c51-f14c::f6ca-2617-56c0-a0a6::5821-6c45-8572-7e0e" name="Smite" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-                  <characteristics>
-                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
-                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Smite has a warp charge value of 5. If manifested, the closest visible enemy unit within 18&quot; of the psyker suffers D3 mortal wounds (pg 181). If the result of the Psychic test was more than 10 the target suffers D6 mortal wounds instead.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="1172-302e-0bc8-170c" name="2. Doom" entryId="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::bbe3-2a52-9a78-6b3d" entryGroupId="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::5436-5e1e-93b3-da67" number="1" type="upgrade">
-              <profiles>
-                <profile id="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::161d-cd7f-ebf1-bb1b::6cca-a548-219a-826b" name="Doom" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-                  <characteristics>
-                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
-                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, choose an enemy unit within 24&quot; of the psyker. You can re-roll failed wound rolls for attacks made by Asuryani units from your army against that unit until the start of your next Psychic phase.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="1c5e-57d1-86ec-2944" name="3. Fortune" entryId="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::0185-d733-16d9-95e4" entryGroupId="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::5436-5e1e-93b3-da67" number="1" type="upgrade">
-              <profiles>
-                <profile id="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::f12b-dc24-f0d3-816a::c0e4-1ebd-bb8a-8f67" name="Fortune" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-                  <characteristics>
-                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
-                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, choose a friendly ASURYANI unit within 24&quot; of the psyker. Until your next Psychic phase, whenever that unit suffers a wound, roll a D6. On a 5+ that wound is ignored. If a unit already has an ability with a similar effect (e.g. Ulthwe&apos;s Foresight of the Damned attribute, or the Avatar of Khaine&apos;s Molten Body ability) then the effect of Fortune replaces that of the ability until your next Psychic phase.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="8db4-1c30-767e-f616" name="Craftworlds Warlord" entryId="886e-7355-c1fd-a3ca::43c8-533c-4f06-5614::fcf1-ecfa-0b47-69bc" number="1" type="upgrade">
-              <selections>
-                <selection id="224a-9e82-e69d-987b" name="Warlord" entryId="886e-7355-c1fd-a3ca::43c8-533c-4f06-5614::6dbf-1b8c-25eb-7e43::33f6-60da-7b70-5fee" number="1" type="upgrade">
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                  </costs>
-                  <categories>
-                    <category id="84ab-d11e-735c-4fd6" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
-                  </categories>
-                </selection>
-              </selections>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="ad80-5140-b64b-a389" name="4: Fate&apos;s Messenger" entryId="886e-7355-c1fd-a3ca::d4d1-cd31-46a3-3ed2::cd40-6b2d-c4c2-df9b::59cf-1c4f-1f2d-bdb0" entryGroupId="886e-7355-c1fd-a3ca::d4d1-cd31-46a3-3ed2::fe55-4fff-9b2e-85b9" number="1" type="upgrade">
-              <profiles>
-                <profile id="886e-7355-c1fd-a3ca::d4d1-cd31-46a3-3ed2::cd40-6b2d-c4c2-df9b::f9c9-419e-ccd4-48d3" name="4: Fate&apos;s Messenger" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Wounds characteristic of your Warlord. In addition, roll a dice each time your Warlord loses a wound. On a roll of 6, your Warlord does not lose the wound.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-          </selections>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
-            <cost name="pts" typeId="points" value="110.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-          </costs>
-          <categories>
-            <category id="0c24-34f8-9e83-2738" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="06ea-7344-4917-4517" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="f953-a836-c395-1525" name="Farseer" entryId="47a3-e3b2-a520-1a21" primary="false"/>
-            <category id="7a84-5ecd-981e-8448" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="5844-3deb-f332-0251" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="3fc9-7891-aa22-f083" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="6368-8a21-dd22-eabb" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="8b2a-f32e-409d-65e3" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="2019-8f2e-0d1c-635d" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
+            <category id="834a-e86f-007f-1d33" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
+            <category id="fb35-e58b-7b3a-6357" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="5ec2-ecbd-0ff8-e044" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
           </categories>
         </selection>
         <selection id="63e7-d771-1da1-edc9" name="Warlock" entryId="8e82-f338-b201-f9d5::1262-6fb1-b88d-e00e" number="1" type="model">
@@ -779,22 +347,6 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selection>
-            <selection id="d960-a318-ecc9-c8b6" name="5. Focus Will" entryId="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::2782-6619-a86b-7ecb" entryGroupId="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::2811-a32c-6768-4a0d" number="1" type="upgrade">
-              <profiles>
-                <profile id="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::d404-e688-b73a-a3ac" name="Focus Will" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-                  <characteristics>
-                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
-                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6&quot;</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select one friendly &lt;CRAFTWORLD&gt; PSYKER model within 6&quot; of this psyker. Until the end of the phase, when a Psychic test is taken for that model, add 2 to the total.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selection>
             <selection id="cc9a-eca6-af30-49bd" name="1. Conceal/Reveal" entryId="8e82-f338-b201-f9d5::6dc4-de05-7f59-50ca::42ea-979b-deeb-ccf6" entryGroupId="8e82-f338-b201-f9d5::6dc4-de05-7f59-50ca::f801-39da-ca0a-33b8" number="1" type="upgrade">
               <profiles>
                 <profile id="8e82-f338-b201-f9d5::6dc4-de05-7f59-50ca::cfe4-a779-bbc2-baae" name="1.1 Conceal" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
@@ -818,6 +370,22 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selection>
+            <selection id="db44-eed6-7fe8-e072" name="0. Smite" entryId="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::1f12-4195-d7e6-36ae" entryGroupId="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::2811-a32c-6768-4a0d" number="1" type="upgrade">
+              <profiles>
+                <profile id="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::bca0-1772-9eb9-7763::f907-85d1-2fbe-72cf" name="Smite/Destructor" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">9&quot;</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">When this model manifests the Smite psychic power, it has a range of 9&quot; rather than 18&quot; and only deals a single mortal wound.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selection>
           </selections>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
@@ -825,15 +393,15 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="8231-2830-615a-c7d3" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="b84a-7f5a-e0e0-18f9" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="c837-6e74-83ef-c679" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="8384-1fab-0718-c11b" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="157d-39b2-989c-53ff" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="023f-d0cb-632f-9222" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="10b2-27ab-b112-665f" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="43e9-6039-6717-9ba7" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-            <category id="c986-2334-c703-8ee9" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
+            <category id="4096-0d46-0022-139c" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="315f-687c-cfb6-a0a9" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="993c-ba2b-44ed-99ab" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="bd3d-2320-1cee-7a11" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="c8fe-ffd9-aed9-05af" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="54e1-3f3a-8343-aa04" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="c297-9b49-44a4-f4cd" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="c2dc-6f42-26eb-68ff" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="7392-f4b2-1641-649c" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
           </categories>
         </selection>
         <selection id="dc46-c1df-309d-2a47" name="Dire Avengers" entryId="8a44-5aa8-9fc9-9efc::330c-452b-9923-5072" number="1" type="unit">
@@ -1018,11 +586,11 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="f437-78ee-f307-535a" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="2c56-0444-4415-b6cb" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
-            <category id="3a91-4854-d1d4-7c6e" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
-            <category id="8a63-d92e-6809-2b4f" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="6975-546d-e202-312e" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="445b-22ea-58a0-df95" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="641d-93a9-581d-c97e" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
+            <category id="0b89-e2f4-9e40-725d" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
+            <category id="e24c-59a1-907d-3dcc" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="cdb5-0fd5-bc2f-67ca" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
           </categories>
         </selection>
         <selection id="9f33-caf1-522c-fac6" name="War Walkers" entryId="47e3-e33a-24f6-36fa::261a-f362-1a45-03c8" number="1" type="unit">
@@ -1148,13 +716,355 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="dead-c81f-83de-bc41" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="4d83-115b-62c7-553c" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="a0c9-8831-6bc3-d918" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="692a-98c5-bb9b-4538" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
-            <category id="085a-49a8-150d-cbc5" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
-            <category id="4f39-01bd-9c0e-aedc" name="War Walker" entryId="ef1a-91be-f09a-37c0" primary="false"/>
-            <category id="9cf5-8524-109c-6a45" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="336b-792c-caa1-ac08" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="98a5-bd9f-f4df-7b2f" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="313d-caa3-c0ac-2a80" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="8978-75f9-4505-4891" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+            <category id="cc68-d10b-528d-5b1d" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="070b-3f26-dc6f-9d0f" name="War Walker" entryId="ef1a-91be-f09a-37c0" primary="false"/>
+            <category id="2867-7c6f-6d5c-864e" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="3cea-6e78-7acb-025f" name="Dire Avengers" entryId="8a44-5aa8-9fc9-9efc::330c-452b-9923-5072" number="1" type="unit">
+          <profiles>
+            <profile id="8a44-5aa8-9fc9-9efc::4e42-5c62-ac94-22f1::0717-5e61-82ac-ab50" name="Ancient Doom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls in the Fight phase for this unit in a turn in which it charges or is charged by a SLAANESH unit. However, you must add 1 to Morale tests for this unit if it is within 3&quot; of any SLAANESH units.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8a44-5aa8-9fc9-9efc::3239-cb8a-8793-38d2::56e7-c06e-e0f4-ee45" name="Battle Focus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit moves or Advances in its Movement phase, weapons (excluding Heavy weapons) are used as if the unit had remained stationary.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="2f57-045e-b03a-0d5c" name="Defence Tactics" entryId="8a44-5aa8-9fc9-9efc::9c46-4acf-beb6-74ae::6ded-37e4-8fa0-a02d" number="1" type="upgrade">
+              <profiles>
+                <profile id="8a44-5aa8-9fc9-9efc::9c46-4acf-beb6-74ae::a746-58dc-c0ef-fc80" name="Defence Tactics" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this unit fires Overwatch, it hits successfully on a roll of 5 or 6, instead of only 6.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="3e36-c9c4-cfd4-1f31" name="Dire Avenger" entryId="8a44-5aa8-9fc9-9efc::1f27-1dbc-28cf-3ddb" entryGroupId="8a44-5aa8-9fc9-9efc::1e8b-d53e-4758-babe" number="4" type="model">
+              <profiles>
+                <profile id="8a44-5aa8-9fc9-9efc::3b7a-87df-bdbe-3219" name="Dire Avenger" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="187a-910e-882a-d012" name="Avenger Shuriken Catapult" entryId="8a44-5aa8-9fc9-9efc::c160-043a-6bb8-8f04::7123-8328-ac3f-ed02" number="4" type="upgrade">
+                  <profiles>
+                    <profile id="8a44-5aa8-9fc9-9efc::c160-043a-6bb8-8f04::c6bc-f408-19bf-d3a1::817c-44e6-c4cc-8fa2" name="Avenger Shuriken Catapult" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3 instead of 0.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="12.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="e299-8286-113f-45ef" name="Plasma Grenades" entryId="8a44-5aa8-9fc9-9efc::87c2-0254-b1d6-165e::b7fa-f88c-305c-534f" number="4" type="upgrade">
+                  <profiles>
+                    <profile id="8a44-5aa8-9fc9-9efc::87c2-0254-b1d6-165e::9681-d218-8c01-af9a::6e3d-fd19-f7bc-3a3d" name="Plasma Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="32.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="0d9a-7adb-06bd-5b3b" name="Dire Avenger Exarch" entryId="8a44-5aa8-9fc9-9efc::eadf-daed-e2d3-7457" entryGroupId="8a44-5aa8-9fc9-9efc::1e8b-d53e-4758-babe" number="1" type="model">
+              <profiles>
+                <profile id="8a44-5aa8-9fc9-9efc::8d70-b73b-360f-37ab" name="Dire Avenger Exarch" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="9d09-c5a0-1202-1469" name="Exarch Power" entryId="8a44-5aa8-9fc9-9efc::dd66-780a-a3c3-0aef" number="1" type="upgrade">
+                  <selections>
+                    <selection id="d8dc-e1fa-7ac9-46e8" name="Shredding Fire" entryId="8a44-5aa8-9fc9-9efc::aa97-ad9e-a245-89bc" entryGroupId="8a44-5aa8-9fc9-9efc::a14b-38fd-4221-e90e" number="1" type="upgrade">
+                      <profiles>
+                        <profile id="8a44-5aa8-9fc9-9efc::9b01-762a-1e2c-93de" name="Shredding Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                          <characteristics>
+                            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ranged weapons that do not have the Grenade type that this unit’s Dire Avenger Exarch is equipped with have an Armour Penetration characteristic of -3 and its Abilities text reads ‘-’.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selection>
+                  </selections>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="eb26-55fb-02be-2f0b" name="Plasma Grenades" entryId="8a44-5aa8-9fc9-9efc::d8fb-b7f6-000c-fecc::b7fa-f88c-305c-534f" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="8a44-5aa8-9fc9-9efc::d8fb-b7f6-000c-fecc::9681-d218-8c01-af9a::6e3d-fd19-f7bc-3a3d" name="Plasma Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="d63f-fe1e-2de1-2343" name="Two Avenger Shuriken Catapults" entryId="8a44-5aa8-9fc9-9efc::7c5c-8146-76b4-d461" entryGroupId="8a44-5aa8-9fc9-9efc::12ac-2be6-0e92-fbc4" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="8a44-5aa8-9fc9-9efc::5ca6-f909-e40e-dda3::817c-44e6-c4cc-8fa2" name="Avenger Shuriken Catapult" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3 instead of 0.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="6.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="d0ca-6559-7481-9ff8" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="68b1-78f5-bbeb-5436" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
+            <category id="8a47-29e3-6eb5-78d7" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
+            <category id="d207-a468-1689-7ba3" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="6b21-a9ec-d6c5-8f19" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="f673-ea74-c6ba-16a1" name="Warlock" entryId="8e82-f338-b201-f9d5::1262-6fb1-b88d-e00e" number="1" type="model">
+          <profiles>
+            <profile id="8e82-f338-b201-f9d5::9bec-3d40-71b2-1813::1b0a-49d4-c8f5-a018" name="Warlock" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8e82-f338-b201-f9d5::8e58-8a55-99e7-a450::0717-5e61-82ac-ab50" name="Ancient Doom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls in the Fight phase for this unit in a turn in which it charges or is charged by a SLAANESH unit. However, you must add 1 to Morale tests for this unit if it is within 3&quot; of any SLAANESH units.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8e82-f338-b201-f9d5::399f-04b3-4ff4-906b::56e7-c06e-e0f4-ee45" name="Battle Focus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit moves or Advances in its Movement phase, weapons (excluding Heavy weapons) are used as if the unit had remained stationary.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="deeb-3cd7-2621-355f" name="Psyker" entryId="8e82-f338-b201-f9d5::485d-aa15-cc48-dca9::9867-5b0d-72a1-6b11" number="1" type="upgrade">
+              <profiles>
+                <profile id="8e82-f338-b201-f9d5::485d-aa15-cc48-dca9::2294-de45-45cb-2be0::05aa-acf9-24d1-4e77" name="Psyker" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+                  <characteristics>
+                    <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
+                    <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
+                    <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">One power from Runes of Battle and one from Runes of Fortune</characteristic>
+                    <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="908d-54e4-16ef-2d13" name="Rune Armour" entryId="8e82-f338-b201-f9d5::7858-696c-5e9e-c623::afbb-a355-ff30-9cd6" number="1" type="upgrade">
+              <profiles>
+                <profile id="8e82-f338-b201-f9d5::7858-696c-5e9e-c623::14fb-dd50-b74a-65b0::784f-bdec-32e3-7c68" name="Rune Armour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 4+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="5d73-a867-b29c-aae1" name="Shuriken Pistol" entryId="8e82-f338-b201-f9d5::8fd8-72d8-de2b-ffd6::9d57-b32e-13bd-d85b" number="1" type="upgrade">
+              <profiles>
+                <profile id="8e82-f338-b201-f9d5::8fd8-72d8-de2b-ffd6::661c-11df-fd15-ce9e::56bb-69aa-22ea-acb9" name="Shuriken pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3 instead of 0.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="3b7f-6525-3c27-3445" name="Witchblade" entryId="8e82-f338-b201-f9d5::820a-3869-8b7a-6c25::b3fe-0376-e87c-cc34::6dc8-22dc-4168-84f5" entryGroupId="8e82-f338-b201-f9d5::820a-3869-8b7a-6c25::3b0b-35d5-d59d-d953" number="1" type="upgrade">
+              <profiles>
+                <profile id="8e82-f338-b201-f9d5::820a-3869-8b7a-6c25::b3fe-0376-e87c-cc34::77d9-6be1-186b-1a1f::b439-d419-0a47-e680" name="Witchblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon always wounds on a roll of 2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="60ab-dd66-51ab-47e1" name="6. Empower/Enervate" entryId="8e82-f338-b201-f9d5::6dc4-de05-7f59-50ca::107a-bbf1-ed65-217c" entryGroupId="8e82-f338-b201-f9d5::6dc4-de05-7f59-50ca::f801-39da-ca0a-33b8" number="1" type="upgrade">
+              <profiles>
+                <profile id="8e82-f338-b201-f9d5::6dc4-de05-7f59-50ca::3f37-988c-416f-321d" name="6.1 Empower" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Choose a friendly ASURYANI INFANTRY or ASURYANI BIKER unit within 18&quot; of the psyker - add 1 to wound rolls in the Fight phase for that unit until your next Psychic phase.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="8e82-f338-b201-f9d5::6dc4-de05-7f59-50ca::7134-e198-c22c-1dd6" name="6.2 Enervate" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Choose an enemy unit within 18&quot; of the psyker - your opponent must subtract 1 from all wound rolls made for that unit in the Fight phase until your next Psychic phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="d503-c100-cc21-f453" name="5. Focus Will" entryId="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::2782-6619-a86b-7ecb" entryGroupId="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::2811-a32c-6768-4a0d" number="1" type="upgrade">
+              <profiles>
+                <profile id="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::d404-e688-b73a-a3ac" name="Focus Will" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">6&quot;</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select one friendly &lt;CRAFTWORLD&gt; PSYKER model within 6&quot; of this psyker. Until the end of the phase, when a Psychic test is taken for that model, add 2 to the total.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+            <cost name="pts" typeId="points" value="45.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="9600-1610-ad1e-7a6e" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="61fe-04cc-7d4a-c00a" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="7a56-fef0-5438-6f42" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="48a8-0834-60f4-f048" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="9086-8ae5-32a5-78ef" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="be90-6eba-85ae-2e01" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="5dbd-d525-4aa5-93ce" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="de52-0b79-2a4e-317e" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="2638-f527-fef0-c9d5" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
           </categories>
         </selection>
       </selections>
@@ -1180,19 +1090,19 @@
         <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017"/>
       </publications>
       <categories>
-        <category id="38ce-45dd-6666-ed34" name="Uncategorised" entryId="(No Category)" primary="false"/>
-        <category id="ed43-e8e1-befe-cfdf" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <category id="4991-a918-3492-3385" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-        <category id="3e50-19e3-ddc0-2fbd" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-        <category id="36b6-811f-ede9-c5e3" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-        <category id="2080-3d4b-f2a3-df08" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-        <category id="1aac-cf39-469a-9b19" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-        <category id="e903-c8b4-0933-14df" name="Flyer" entryId="e888-1504-aa61-95ff" primary="false"/>
-        <category id="153e-d61c-4068-4a82" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="false"/>
-        <category id="aef7-a2b0-8fe6-127d" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
-        <category id="e23d-7dd2-28e9-cbdf" name="Relic Elites" entryId="8d86-9490-0f7d-a5b5" primary="false"/>
-        <category id="f766-b759-3868-948f" name="Relic Heavy Support" entryId="6c4c-a416-b8cb-c380" primary="false"/>
-        <category id="a66c-727c-50dc-2b43" name="Relic HQ" entryId="655f-e142-dfa9-11a4" primary="false"/>
+        <category id="53a9-8d00-60e8-f197" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="2c1f-d6b1-ee4b-788b" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <category id="eed6-835b-16e0-afb4" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <category id="04fc-4b92-3cf1-aa72" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <category id="766e-8e2f-86ee-01f8" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <category id="2623-3acc-e1a7-73d8" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+        <category id="6b9c-1e8d-bb02-33d7" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <category id="cc5f-a5b9-ac25-504d" name="Flyer" entryId="e888-1504-aa61-95ff" primary="false"/>
+        <category id="4a09-728c-8649-9d9c" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="false"/>
+        <category id="1a38-2d94-bc16-3559" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
+        <category id="2844-a806-ff44-d45a" name="Relic Elites" entryId="8d86-9490-0f7d-a5b5" primary="false"/>
+        <category id="6508-2acc-c098-70ac" name="Relic Heavy Support" entryId="6c4c-a416-b8cb-c380" primary="false"/>
+        <category id="49f2-a03c-84b1-a956" name="Relic HQ" entryId="655f-e142-dfa9-11a4" primary="false"/>
       </categories>
     </force>
     <force id="6622-f100-9f9a-a49a" name="Battalion Detachment +5CP" entryId="564e-55d5-79bc-a4d7" catalogueId="30b2-6f64-b85e-b4dc" catalogueRevision="89" catalogueName="Aeldari - Craftworlds">
@@ -1339,168 +1249,15 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="9bc3-3c23-8103-1ac8" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="cf95-91e1-754e-da62" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="c019-feb6-8382-d777" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="23f9-1351-d97d-4d3e" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="f3cd-4b3f-d4ba-a339" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="217e-46a8-2d9c-ea89" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="2200-4892-7201-a915" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="dc57-f92a-a56e-7d8a" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-            <category id="976c-b648-6acb-22e9" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
-          </categories>
-        </selection>
-        <selection id="53c7-210a-b1d2-7f20" name="Warlock" entryId="8e82-f338-b201-f9d5::1262-6fb1-b88d-e00e" number="1" type="model">
-          <profiles>
-            <profile id="8e82-f338-b201-f9d5::9bec-3d40-71b2-1813::1b0a-49d4-c8f5-a018" name="Warlock" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-              <characteristics>
-                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
-                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-                <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-                <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-                <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
-                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="8e82-f338-b201-f9d5::8e58-8a55-99e7-a450::0717-5e61-82ac-ab50" name="Ancient Doom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls in the Fight phase for this unit in a turn in which it charges or is charged by a SLAANESH unit. However, you must add 1 to Morale tests for this unit if it is within 3&quot; of any SLAANESH units.</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="8e82-f338-b201-f9d5::399f-04b3-4ff4-906b::56e7-c06e-e0f4-ee45" name="Battle Focus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit moves or Advances in its Movement phase, weapons (excluding Heavy weapons) are used as if the unit had remained stationary.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selections>
-            <selection id="ab76-6f2f-d854-30a0" name="Psyker" entryId="8e82-f338-b201-f9d5::485d-aa15-cc48-dca9::9867-5b0d-72a1-6b11" number="1" type="upgrade">
-              <profiles>
-                <profile id="8e82-f338-b201-f9d5::485d-aa15-cc48-dca9::2294-de45-45cb-2be0::05aa-acf9-24d1-4e77" name="Psyker" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
-                  <characteristics>
-                    <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
-                    <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-                    <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">One power from Runes of Battle and one from Runes of Fortune</characteristic>
-                    <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="3ecd-9567-c750-2c3f" name="Rune Armour" entryId="8e82-f338-b201-f9d5::7858-696c-5e9e-c623::afbb-a355-ff30-9cd6" number="1" type="upgrade">
-              <profiles>
-                <profile id="8e82-f338-b201-f9d5::7858-696c-5e9e-c623::14fb-dd50-b74a-65b0::784f-bdec-32e3-7c68" name="Rune Armour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 4+ invulnerable save.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="50f2-a49c-301f-b8e9" name="Shuriken Pistol" entryId="8e82-f338-b201-f9d5::8fd8-72d8-de2b-ffd6::9d57-b32e-13bd-d85b" number="1" type="upgrade">
-              <profiles>
-                <profile id="8e82-f338-b201-f9d5::8fd8-72d8-de2b-ffd6::661c-11df-fd15-ce9e::56bb-69aa-22ea-acb9" name="Shuriken pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3 instead of 0.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="ef7a-8426-33e4-f66d" name="Witchblade" entryId="8e82-f338-b201-f9d5::820a-3869-8b7a-6c25::b3fe-0376-e87c-cc34::6dc8-22dc-4168-84f5" entryGroupId="8e82-f338-b201-f9d5::820a-3869-8b7a-6c25::3b0b-35d5-d59d-d953" number="1" type="upgrade">
-              <profiles>
-                <profile id="8e82-f338-b201-f9d5::820a-3869-8b7a-6c25::b3fe-0376-e87c-cc34::77d9-6be1-186b-1a1f::b439-d419-0a47-e680" name="Witchblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon always wounds on a roll of 2+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="d3cd-1829-e2a4-2dd3" name="3. Enhance/Drain" entryId="8e82-f338-b201-f9d5::6dc4-de05-7f59-50ca::d651-60ec-b254-7835" entryGroupId="8e82-f338-b201-f9d5::6dc4-de05-7f59-50ca::f801-39da-ca0a-33b8" publicationId="30b2-6f64-pubN137513" number="1" type="upgrade">
-              <profiles>
-                <profile id="8e82-f338-b201-f9d5::6dc4-de05-7f59-50ca::e2c3-1c7d-185a-bc31" name="3.1 Enhance" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-                  <characteristics>
-                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
-                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Choose a friendly ASURYANI INFANTRY or ASURYANI BIKER unit within 18&quot; of the psyker - add 1 to hit rolls in the Fight phase made for that unit until your next Psychic phase.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="8e82-f338-b201-f9d5::6dc4-de05-7f59-50ca::1509-0185-0ec9-0ebd" name="3.2 Drain" publicationId="30b2-6f64-pubN137513" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-                  <characteristics>
-                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
-                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Choose an enemy unit within 18&quot; of the psyker - your opponent must subtract 1 from all hit rolls for that unit in the Fight phase until your next Psychic phase.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="28ce-975e-7a9b-a300" name="0. Smite" entryId="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::1f12-4195-d7e6-36ae" entryGroupId="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::2811-a32c-6768-4a0d" number="1" type="upgrade">
-              <profiles>
-                <profile id="8e82-f338-b201-f9d5::0d35-b09f-4081-c3b9::bca0-1772-9eb9-7763::f907-85d1-2fbe-72cf" name="Smite/Destructor" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-                  <characteristics>
-                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
-                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">9&quot;</characteristic>
-                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">When this model manifests the Smite psychic power, it has a range of 9&quot; rather than 18&quot; and only deals a single mortal wound.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selection>
-          </selections>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
-            <cost name="pts" typeId="points" value="45.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-          </costs>
-          <categories>
-            <category id="693e-7847-607b-d859" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="8aea-0a74-89f0-3948" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="f6ed-1cde-2daa-4be7" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="576a-5dc0-52c9-87ce" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="9a04-2b3d-992a-05c8" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="63a0-a69b-09e8-02f8" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="1136-a1a2-6f23-9ec5" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="40d3-6874-f07b-dab8" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-            <category id="e8cd-375b-00be-a7b6" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
+            <category id="49e6-13d6-06a8-69e0" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="8a79-22f7-c0fc-ae57" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="f8ac-16a5-dd1d-ec12" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="480d-f465-8b4c-8aa1" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="c97b-1629-3400-8a4c" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="bab8-beb2-a7b5-54e5" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="1a5a-a8c8-7c74-12b2" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="ae3b-3a9a-86e0-8726" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="8e96-fa51-4588-33e6" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
           </categories>
         </selection>
         <selection id="9ed7-d18d-ce67-f3ed" name="Rangers" entryId="5fba-0b5d-2e8c-9218::5be4-5133-95e3-f6ef" number="1" type="unit">
@@ -1614,13 +1371,13 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="7f8b-e833-f0a0-5b52" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="6de8-3ed2-c483-8c2c" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="162a-2b60-b83a-bc33" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="d30a-5518-5e38-b4df" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="fa89-83a6-a707-42dc" name="Rangers" entryId="a814-fb66-a9ba-a309" primary="false"/>
-            <category id="c0d7-c9c3-b596-6dfb" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-            <category id="bd34-2cac-040a-1e0a" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="2c29-a2dc-1b75-3012" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="bb4e-063f-5bc5-ce9c" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="3459-a7a6-40bb-2404" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="a9b9-6956-de77-8b86" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="b9ff-bb82-318e-089c" name="Rangers" entryId="a814-fb66-a9ba-a309" primary="false"/>
+            <category id="fdae-b77a-654b-6521" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="d27e-70a9-fa00-119c" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
           </categories>
         </selection>
         <selection id="9d29-e485-6041-24d2" name="Rangers" entryId="5fba-0b5d-2e8c-9218::5be4-5133-95e3-f6ef" number="1" type="unit">
@@ -1734,202 +1491,13 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="4f12-722e-8694-b7ae" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="89e5-8e71-a590-e3af" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="0b3a-2b69-c12d-d197" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="ee4e-0a9d-965b-aa74" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="4369-a67c-21c0-03fe" name="Rangers" entryId="a814-fb66-a9ba-a309" primary="false"/>
-            <category id="2d58-d77d-49b7-4dcf" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-            <category id="453a-3ab3-a67d-e3f3" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-          </categories>
-        </selection>
-        <selection id="fd6d-ffde-7160-31f6" name="Dire Avengers" entryId="8a44-5aa8-9fc9-9efc::330c-452b-9923-5072" number="1" type="unit">
-          <profiles>
-            <profile id="8a44-5aa8-9fc9-9efc::4e42-5c62-ac94-22f1::0717-5e61-82ac-ab50" name="Ancient Doom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls in the Fight phase for this unit in a turn in which it charges or is charged by a SLAANESH unit. However, you must add 1 to Morale tests for this unit if it is within 3&quot; of any SLAANESH units.</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="8a44-5aa8-9fc9-9efc::3239-cb8a-8793-38d2::56e7-c06e-e0f4-ee45" name="Battle Focus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit moves or Advances in its Movement phase, weapons (excluding Heavy weapons) are used as if the unit had remained stationary.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selections>
-            <selection id="b04d-ca89-ae2a-6359" name="Defence Tactics" entryId="8a44-5aa8-9fc9-9efc::9c46-4acf-beb6-74ae::6ded-37e4-8fa0-a02d" number="1" type="upgrade">
-              <profiles>
-                <profile id="8a44-5aa8-9fc9-9efc::9c46-4acf-beb6-74ae::a746-58dc-c0ef-fc80" name="Defence Tactics" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this unit fires Overwatch, it hits successfully on a roll of 5 or 6, instead of only 6.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="ccfa-7963-dcf6-daa0" name="Dire Avenger" entryId="8a44-5aa8-9fc9-9efc::1f27-1dbc-28cf-3ddb" entryGroupId="8a44-5aa8-9fc9-9efc::1e8b-d53e-4758-babe" number="4" type="model">
-              <profiles>
-                <profile id="8a44-5aa8-9fc9-9efc::3b7a-87df-bdbe-3219" name="Dire Avenger" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
-                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
-                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selections>
-                <selection id="0064-64b2-fefd-1939" name="Avenger Shuriken Catapult" entryId="8a44-5aa8-9fc9-9efc::c160-043a-6bb8-8f04::7123-8328-ac3f-ed02" number="4" type="upgrade">
-                  <profiles>
-                    <profile id="8a44-5aa8-9fc9-9efc::c160-043a-6bb8-8f04::c6bc-f408-19bf-d3a1::817c-44e6-c4cc-8fa2" name="Avenger Shuriken Catapult" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3 instead of 0.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="pts" typeId="points" value="12.0"/>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                  </costs>
-                </selection>
-                <selection id="2d6a-b42b-9c8b-eb70" name="Plasma Grenades" entryId="8a44-5aa8-9fc9-9efc::87c2-0254-b1d6-165e::b7fa-f88c-305c-534f" number="4" type="upgrade">
-                  <profiles>
-                    <profile id="8a44-5aa8-9fc9-9efc::87c2-0254-b1d6-165e::9681-d218-8c01-af9a::6e3d-fd19-f7bc-3a3d" name="Plasma Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                  </costs>
-                </selection>
-              </selections>
-              <costs>
-                <cost name="pts" typeId="points" value="32.0"/>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-            <selection id="aa28-c9c5-4677-f63f" name="Dire Avenger Exarch" entryId="8a44-5aa8-9fc9-9efc::eadf-daed-e2d3-7457" entryGroupId="8a44-5aa8-9fc9-9efc::1e8b-d53e-4758-babe" number="1" type="model">
-              <profiles>
-                <profile id="8a44-5aa8-9fc9-9efc::8d70-b73b-360f-37ab" name="Dire Avenger Exarch" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-                  <characteristics>
-                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
-                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
-                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
-                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <selections>
-                <selection id="80c4-7c56-7503-acaa" name="Exarch Power" entryId="8a44-5aa8-9fc9-9efc::dd66-780a-a3c3-0aef" number="1" type="upgrade">
-                  <selections>
-                    <selection id="5b4e-21c8-640e-f063" name="Shredding Fire" entryId="8a44-5aa8-9fc9-9efc::aa97-ad9e-a245-89bc" entryGroupId="8a44-5aa8-9fc9-9efc::a14b-38fd-4221-e90e" number="1" type="upgrade">
-                      <profiles>
-                        <profile id="8a44-5aa8-9fc9-9efc::9b01-762a-1e2c-93de" name="Shredding Fire" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                          <characteristics>
-                            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ranged weapons that do not have the Grenade type that this unit’s Dire Avenger Exarch is equipped with have an Armour Penetration characteristic of -3 and its Abilities text reads ‘-’.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                      </costs>
-                    </selection>
-                  </selections>
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                  </costs>
-                </selection>
-                <selection id="e7da-f17c-c665-1963" name="Plasma Grenades" entryId="8a44-5aa8-9fc9-9efc::d8fb-b7f6-000c-fecc::b7fa-f88c-305c-534f" number="1" type="upgrade">
-                  <profiles>
-                    <profile id="8a44-5aa8-9fc9-9efc::d8fb-b7f6-000c-fecc::9681-d218-8c01-af9a::6e3d-fd19-f7bc-3a3d" name="Plasma Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                  </costs>
-                </selection>
-                <selection id="c29d-137c-e238-d38f" name="Two Avenger Shuriken Catapults" entryId="8a44-5aa8-9fc9-9efc::7c5c-8146-76b4-d461" entryGroupId="8a44-5aa8-9fc9-9efc::12ac-2be6-0e92-fbc4" number="1" type="upgrade">
-                  <profiles>
-                    <profile id="8a44-5aa8-9fc9-9efc::5ca6-f909-e40e-dda3::817c-44e6-c4cc-8fa2" name="Avenger Shuriken Catapult" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-                      <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
-                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3 instead of 0.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <costs>
-                    <cost name="pts" typeId="points" value="6.0"/>
-                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                  </costs>
-                </selection>
-              </selections>
-              <costs>
-                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" typeId="points" value="8.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-              </costs>
-            </selection>
-          </selections>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-          </costs>
-          <categories>
-            <category id="b261-4f95-9f8d-89e1" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="a1e2-6228-e990-11b4" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
-            <category id="6d28-4900-50b6-42b0" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
-            <category id="d1d8-34b6-f2e0-3b03" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="7c66-7c10-5b1b-786d" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="1640-58a9-4a25-7543" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="be68-d7e2-1b0c-aa02" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="ad6f-8e6f-0c44-be6b" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="5854-1441-4d1c-f08f" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="533c-6944-8b08-d936" name="Rangers" entryId="a814-fb66-a9ba-a309" primary="false"/>
+            <category id="8077-a17f-6b5c-e326" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="9fab-23a7-8803-6680" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
           </categories>
         </selection>
         <selection id="5479-669b-d365-580a" name="Detachment CP" entryId="ec87-f19e-eee2-1ba8::9d97-2793-9882-d48a" number="1" type="upgrade">
@@ -1939,7 +1507,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
           <categories>
-            <category id="c38c-ae0b-c7a3-fd46" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+            <category id="4f1f-1caf-1713-50c3" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
           </categories>
         </selection>
         <selection id="6bbe-bba1-c05d-0db3" name="Craftworld Attribute" entryId="4fd1-68ba-8b83-0f50::d671-b181-714f-3831" number="1" type="upgrade">
@@ -1965,9 +1533,9 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="9252-bcd9-ac6f-20d7" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="fa2c-cb94-d91c-1d95" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="eb7b-cfa7-9982-5bf3" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+            <category id="1e7a-8eeb-7916-e706" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="3388-b995-8f80-2ded" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="c69e-fbfa-34d6-2197" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
           </categories>
         </selection>
         <selection id="46ea-8b08-8afb-860c" name="Dark Reapers" entryId="318a-d086-9786-ad5c::269f-a845-3c8d-834f" number="1" type="unit">
@@ -1993,7 +1561,7 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selection>
-            <selection id="384c-7307-af79-8870" name="Dark Reaper" entryId="318a-d086-9786-ad5c::a60c-a5ec-cf5b-0930" entryGroupId="318a-d086-9786-ad5c::85f3-0bfa-72b2-5825" number="8" type="model">
+            <selection id="384c-7307-af79-8870" name="Dark Reaper" entryId="318a-d086-9786-ad5c::a60c-a5ec-cf5b-0930" entryGroupId="318a-d086-9786-ad5c::85f3-0bfa-72b2-5825" number="9" type="model">
               <profiles>
                 <profile id="318a-d086-9786-ad5c::d1fc-2315-3f4a-ad5c" name="Dark Reaper" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
                   <characteristics>
@@ -2010,7 +1578,7 @@
                 </profile>
               </profiles>
               <selections>
-                <selection id="571c-6447-688a-ff53" name="Reaper Launcher" entryId="318a-d086-9786-ad5c::d849-b573-7171-dad9::5208-ff5e-55ff-4dea" number="8" type="upgrade">
+                <selection id="571c-6447-688a-ff53" name="Reaper Launcher" entryId="318a-d086-9786-ad5c::d849-b573-7171-dad9::5208-ff5e-55ff-4dea" number="9" type="upgrade">
                   <profiles>
                     <profile id="318a-d086-9786-ad5c::d849-b573-7171-dad9::7533-61de-ed27-a750::8d1c-1e2e-8fa6-c028" name="(Reaper) Starshot Missile" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
@@ -2034,14 +1602,14 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="176.0"/>
+                    <cost name="pts" typeId="points" value="198.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selection>
               </selections>
               <costs>
-                <cost name="pts" typeId="points" value="72.0"/>
+                <cost name="pts" typeId="points" value="81.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -2065,27 +1633,6 @@
               <selections>
                 <selection id="1bb8-e7dc-65a4-4f25" name="Exarch Power" entryId="318a-d086-9786-ad5c::52c1-8d83-4b19-1c32" number="1" type="upgrade">
                   <selections>
-                    <selection id="bc17-a06c-8508-10ef" name="Crack Shot" entryId="318a-d086-9786-ad5c::6361-4422-8c7c-fd1d" number="1" type="upgrade">
-                      <profiles>
-                        <profile id="318a-d086-9786-ad5c::2283-8e57-f676-79e9" name="Crack Shot" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-                          <characteristics>
-                            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll hit rolls of 1 for a Dark Reaper Exarch&apos;s ranged weapons.</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <costs>
-                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                      </costs>
-                    </selection>
-                    <selection id="86b6-93e3-1618-904d" name="Exemplar of the Reaper Shrine" entryId="318a-d086-9786-ad5c::1dcf-03ac-e0ca-5337" number="1" type="upgrade">
-                      <costs>
-                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
-                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                      </costs>
-                    </selection>
                     <selection id="1352-de8b-b193-11a6" name="Rain of Death" entryId="318a-d086-9786-ad5c::18db-53d3-f079-fe26" entryGroupId="318a-d086-9786-ad5c::224a-5542-ce47-f16a" number="1" type="upgrade">
                       <profiles>
                         <profile id="318a-d086-9786-ad5c::199c-f074-3ba4-e7ed" name="Rain of Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2140,11 +1687,11 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="e275-975b-773d-6f1f" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="85cc-ec7a-a78b-40a1" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
-            <category id="ecf1-052e-9711-aa81" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
-            <category id="8291-9a1a-cbd8-cbcb" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="ce48-1f9c-9014-6aed" name="Dark Reapers" entryId="d703-f7d7-7faf-735c" primary="false"/>
+            <category id="a7b0-f0dd-8fe7-b3e4" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="46c2-5099-6c70-9134" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
+            <category id="cd0d-5df1-c2df-c6ea" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+            <category id="8f65-c7e3-37be-6c9f" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="1959-3546-7f06-7c71" name="Dark Reapers" entryId="d703-f7d7-7faf-735c" primary="false"/>
           </categories>
         </selection>
         <selection id="e280-767b-5676-1ccd" name="Wave Serpent" entryId="8999-adf4-064c-04fb::66d3-17ef-c15b-39f8" number="1" type="model">
@@ -2289,22 +1836,22 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="43dd-6550-8dcc-5333" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="ff69-6296-eee7-8050" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="e2aa-1d5b-6619-3b26" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="38b8-49d6-1f0f-c7cd" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="true"/>
-            <category id="1085-aab1-4d95-9488" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="2c91-0944-78a0-c636" name="Transport" entryId="6cc4-1b62-8e8a-05cd" primary="false"/>
-            <category id="54af-499b-ad28-b711" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
-            <category id="36bd-1e0a-31ff-5261" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-            <category id="d9fc-ee4b-c7a1-e1a4" name="Wave Serpent" entryId="ab1c-3e0d-9e37-95f7" primary="false"/>
-            <category id="0fb0-e70e-d130-b77b" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="afd8-dc62-457f-6919" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="d3ae-bbf4-fb47-d9c3" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="7642-081f-c1f3-03ec" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="d732-09f0-ebfc-1241" name="Transport" entryId="6cc4-1b62-8e8a-05cd" primary="false"/>
-            <category id="e9a3-aba1-17a0-4f98" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
-            <category id="d328-d607-7277-a866" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="ca4b-3307-3164-b932" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="35d9-3631-0ea1-3e07" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="5e65-6d82-c1fc-831b" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="56c9-7dcb-b8db-f247" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="true"/>
+            <category id="b65e-1e60-42c9-c537" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="9bda-2a5f-20a6-c934" name="Transport" entryId="6cc4-1b62-8e8a-05cd" primary="false"/>
+            <category id="3f6f-ce3c-9170-c338" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="7de7-5162-5268-c5b4" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="7d33-d011-87a4-98d7" name="Wave Serpent" entryId="ab1c-3e0d-9e37-95f7" primary="false"/>
+            <category id="e94c-63ff-070a-e21f" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="1e92-7904-8ad1-8929" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="6795-c0af-37f9-ba0e" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="b700-a9c7-112b-2968" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="a656-da6e-1d45-f7e6" name="Transport" entryId="6cc4-1b62-8e8a-05cd" primary="false"/>
+            <category id="1ea5-ba41-8ab4-dac8" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="bc72-107c-13e8-60c7" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
           </categories>
         </selection>
         <selection id="cdaa-a8aa-f317-b7d3" name="Hemlock Wraithfighter" entryId="8269-f2a5-6748-2650::c537-8d87-968f-5355" number="1" type="model">
@@ -2514,17 +2061,391 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="a8c7-96f4-b2f9-c2a4" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="ecdf-a482-0bd1-0ab5" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="dc6c-25d4-5f27-dca0" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="fec8-2db3-96e1-29d0" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="1d24-725c-d9e1-8b8f" name="Flyer" entryId="e888-1504-aa61-95ff" primary="true"/>
-            <category id="505d-784a-2852-a39a" name="Hemlock Wraithfighter" entryId="ab4c-b7dd-220a-7ba6" primary="false"/>
-            <category id="1188-501b-f9a3-6c90" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="9cc2-e9ed-b91c-be3e" name="Faction: Spirit Host" entryId="9a3e-947f-26da-d343" primary="false"/>
-            <category id="c3e7-d72d-5926-c3b2" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
-            <category id="e10e-9ebf-c4d4-8d46" name="Wraith Construct" entryId="be4f-b265-1ffd-36cd" primary="false"/>
-            <category id="9c03-cb62-4a14-c549" name="Aircraft" entryId="d569-3d56-cd24-6a31" publicationId="82b3-73d0-72b2-3180" primary="false"/>
+            <category id="8337-6e85-9614-271f" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="ca26-0bb9-b7d8-3dd6" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="e283-ba5e-ca66-7c7b" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="f38a-391d-b27b-0e12" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="ff03-bee8-a840-73f7" name="Flyer" entryId="e888-1504-aa61-95ff" primary="true"/>
+            <category id="4079-c2c7-5b92-e02a" name="Hemlock Wraithfighter" entryId="ab4c-b7dd-220a-7ba6" primary="false"/>
+            <category id="ddf9-9bfe-75a5-485c" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="9ffa-3bad-4fcb-7000" name="Faction: Spirit Host" entryId="9a3e-947f-26da-d343" primary="false"/>
+            <category id="85ea-6587-e1b2-6160" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="28a0-0bef-8d69-27cf" name="Wraith Construct" entryId="be4f-b265-1ffd-36cd" primary="false"/>
+            <category id="036e-cacf-4e1c-e0a4" name="Aircraft" entryId="d569-3d56-cd24-6a31" publicationId="82b3-73d0-72b2-3180" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="43f7-94a0-f560-dd71" name="Farseer" entryId="886e-7355-c1fd-a3ca::85ec-b193-d2df-32cc" number="1" type="model">
+          <profiles>
+            <profile id="886e-7355-c1fd-a3ca::5523-58be-820b-db47" name="Farseer" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">9</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="886e-7355-c1fd-a3ca::b8b0-03f5-1686-590e::0717-5e61-82ac-ab50" name="Ancient Doom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls in the Fight phase for this unit in a turn in which it charges or is charged by a SLAANESH unit. However, you must add 1 to Morale tests for this unit if it is within 3&quot; of any SLAANESH units.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="886e-7355-c1fd-a3ca::db38-55d5-cd00-edb0::56e7-c06e-e0f4-ee45" name="Battle Focus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit moves or Advances in its Movement phase, weapons (excluding Heavy weapons) are used as if the unit had remained stationary.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="88b7-9306-26f1-c4d3" name="Shuriken Pistol" entryId="886e-7355-c1fd-a3ca::d3cf-65f1-7ba3-ac37::9d57-b32e-13bd-d85b" number="1" type="upgrade">
+              <profiles>
+                <profile id="886e-7355-c1fd-a3ca::d3cf-65f1-7ba3-ac37::661c-11df-fd15-ce9e::56bb-69aa-22ea-acb9" name="Shuriken pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3 instead of 0.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="2fa4-e8d7-b5f1-4883" name="Runes of the Farseer" entryId="886e-7355-c1fd-a3ca::6458-0a51-babe-5eff::a87c-cada-0755-be79" number="1" type="upgrade">
+              <profiles>
+                <profile id="886e-7355-c1fd-a3ca::6458-0a51-babe-5eff::e6ef-1fb9-9760-97c6" name="Runes of the Farseer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once in each Psychic phase, you can re-roll any number of dice used for this model&apos;s attempt to manifest or deny a psychic power.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="e8ff-5370-a053-b887" name="Ghosthelm" entryId="886e-7355-c1fd-a3ca::70e7-cd4b-bb76-399d::d5ab-14f4-66d1-e77f" number="1" type="upgrade">
+              <profiles>
+                <profile id="886e-7355-c1fd-a3ca::70e7-cd4b-bb76-399d::51be-083f-30a3-70f2" name="Ghosthelm" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 whenever this model suffers a mortal wound, adding 3 to the roll if the mortal wound was inflicted as a result of the psyker suffering Perils of the Warp. On a roll of 5+, that wound is ignored.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="24d3-3a18-58a6-4871" name="Rune Armour" entryId="886e-7355-c1fd-a3ca::17d3-a001-6bd6-0e7a::afbb-a355-ff30-9cd6" number="1" type="upgrade">
+              <profiles>
+                <profile id="886e-7355-c1fd-a3ca::17d3-a001-6bd6-0e7a::14fb-dd50-b74a-65b0::784f-bdec-32e3-7c68" name="Rune Armour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 4+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="73b1-2568-ef3c-db32" name="Psyker (Farseer)" entryId="886e-7355-c1fd-a3ca::7bc8-373b-8779-f2ab::c479-a27d-530b-44f4" number="1" type="upgrade">
+              <profiles>
+                <profile id="886e-7355-c1fd-a3ca::7bc8-373b-8779-f2ab::e504-4ac6-c3e5-ed87::5518-d72d-9e84-77a8" name="Psyker (Farseer)" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+                  <characteristics>
+                    <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">2</characteristic>
+                    <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">2</characteristic>
+                    <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">2 powers from Runes of Fate and one from Runes of Fortune</characteristic>
+                    <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="72e8-d56d-f02f-fa56" name="Witchblade" entryId="886e-7355-c1fd-a3ca::fa70-00e0-40f8-3eda::b3fe-0376-e87c-cc34::6dc8-22dc-4168-84f5" entryGroupId="886e-7355-c1fd-a3ca::fa70-00e0-40f8-3eda::3b0b-35d5-d59d-d953" number="1" type="upgrade">
+              <profiles>
+                <profile id="886e-7355-c1fd-a3ca::fa70-00e0-40f8-3eda::b3fe-0376-e87c-cc34::77d9-6be1-186b-1a1f::b439-d419-0a47-e680" name="Witchblade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon always wounds on a roll of 2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="21b3-9fa6-b3cb-bf01" name="0. Smite" entryId="886e-7355-c1fd-a3ca::b988-1f54-4c51-f14c::1f12-4195-d7e6-36ae" entryGroupId="886e-7355-c1fd-a3ca::b988-1f54-4c51-f14c::2811-a32c-6768-4a0d" number="1" type="upgrade">
+              <profiles>
+                <profile id="886e-7355-c1fd-a3ca::b988-1f54-4c51-f14c::f6ca-2617-56c0-a0a6::5821-6c45-8572-7e0e" name="Smite" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">Smite has a warp charge value of 5. If manifested, the closest visible enemy unit within 18&quot; of the psyker suffers D3 mortal wounds (pg 181). If the result of the Psychic test was more than 10 the target suffers D6 mortal wounds instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="989e-a5be-117e-212a" name="2. Doom" entryId="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::bbe3-2a52-9a78-6b3d" entryGroupId="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::5436-5e1e-93b3-da67" number="1" type="upgrade">
+              <profiles>
+                <profile id="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::161d-cd7f-ebf1-bb1b::6cca-a548-219a-826b" name="Doom" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">24&quot;</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, choose an enemy unit within 24&quot; of the psyker. You can re-roll failed wound rolls for attacks made by Asuryani units from your army against that unit until the start of your next Psychic phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="bf42-cd47-97ca-0642" name="4. Executioner" entryId="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::52f1-0edb-cc18-6308" entryGroupId="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::5436-5e1e-93b3-da67" number="1" type="upgrade">
+              <profiles>
+                <profile id="886e-7355-c1fd-a3ca::e7ef-7783-1885-4ab1::c5ec-c7f7-73bf-dfea::3bb5-a77b-67c5-aa61" name="Executioner" publicationId="30b2-6f64-pubN137513" page="125" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
+                    <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+                    <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, the nearest enemy unit within 18&quot; of the psyker suffers D3 mortal wounds. If a model in the target unit is slain as a result of this, the target units suffers an additional D3 mortal wounds.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="a32a-1399-c022-9b22" name="Craftworlds Warlord" entryId="886e-7355-c1fd-a3ca::43c8-533c-4f06-5614::fcf1-ecfa-0b47-69bc" number="1" type="upgrade">
+              <selections>
+                <selection id="ab97-8858-fd31-bc5d" name="Warlord" entryId="886e-7355-c1fd-a3ca::43c8-533c-4f06-5614::6dbf-1b8c-25eb-7e43::33f6-60da-7b70-5fee" number="1" type="upgrade">
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="823e-7ac1-6f05-9c3a" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="1b36-1e34-aa30-d759" name="Alaitoc: Puritanical Leader" entryId="886e-7355-c1fd-a3ca::d4d1-cd31-46a3-3ed2::9ec7-785d-9c6b-a4ab::db62-926d-ac62-70c6" entryGroupId="886e-7355-c1fd-a3ca::d4d1-cd31-46a3-3ed2::fe55-4fff-9b2e-85b9" number="1" type="upgrade">
+              <profiles>
+                <profile id="886e-7355-c1fd-a3ca::d4d1-cd31-46a3-3ed2::9ec7-785d-9c6b-a4ab::8814-dfd8-7fa1-6f40" name="Alaitoc: Puritanical Leader" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">As long as all friendly units within 6&quot; of your Warlord are ALAITOC units, those units automatically pass Morale tests.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
+            <cost name="pts" typeId="points" value="110.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="b28b-8e3d-7ccf-7126" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="b1b3-c483-85e0-eda9" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="12ec-b8f5-87e1-5628" name="Farseer" entryId="47a3-e3b2-a520-1a21" primary="false"/>
+            <category id="6337-ec05-79bf-1661" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="943f-1fd5-8869-4fc6" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="4e75-f527-5457-7a32" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="c19b-1563-6312-41df" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="df51-b0ae-ea81-0981" name="Guardian Defenders" entryId="c353-858f-36ed-23d4::0341-e29a-e0ec-acd4" number="1" type="unit">
+          <profiles>
+            <profile id="c353-858f-36ed-23d4::e336-16ea-3426-4865::0717-5e61-82ac-ab50" name="Ancient Doom" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls in the Fight phase for this unit in a turn in which it charges or is charged by a SLAANESH unit. However, you must add 1 to Morale tests for this unit if it is within 3&quot; of any SLAANESH units.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c353-858f-36ed-23d4::e26c-f5d4-3840-38ee::56e7-c06e-e0f4-ee45" name="Battle Focus" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit moves or Advances in its Movement phase, weapons (excluding Heavy weapons) are used as if the unit had remained stationary.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="acb9-0853-6bda-baf1" name="Guardian Defender" entryId="c353-858f-36ed-23d4::c758-aaf5-4754-8653" number="17" type="model">
+              <profiles>
+                <profile id="c353-858f-36ed-23d4::9f24-d5b7-8d40-813b" name="Guardian Defender" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="17ec-2659-ff68-6e4e" name="Shuriken Catapult" entryId="c353-858f-36ed-23d4::52e5-2c4d-f31d-2306::1d13-3a9a-37d6-1735" number="17" type="upgrade">
+                  <profiles>
+                    <profile id="c353-858f-36ed-23d4::52e5-2c4d-f31d-2306::dc2f-3dd4-422f-6ed4::9050-6d3d-65ed-9eef" name="Shuriken Catapult" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3 instead of 0.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="4b37-4bd5-26a8-6ea7" name="Plasma Grenades" entryId="c353-858f-36ed-23d4::94d6-a95f-c32a-3524::b7fa-f88c-305c-534f" number="17" type="upgrade">
+                  <profiles>
+                    <profile id="c353-858f-36ed-23d4::94d6-a95f-c32a-3524::9681-d218-8c01-af9a::6e3d-fd19-f7bc-3a3d" name="Plasma Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="136.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="6c70-fadd-c9bf-6290" name="Guardian Defenders" entryId="18ed-c84e-77ae-c059" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="fb76-7e00-605a-c2bf" name="Guardian Heavy Weapons Platform" entryId="c353-858f-36ed-23d4::8cb4-c382-d67e-3d08" number="1" type="upgrade">
+              <profiles>
+                <profile id="c353-858f-36ed-23d4::df84-9429-5ae4-da00" name="Guardian Heavy Weapons Platform" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">6+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c353-858f-36ed-23d4::d1dc-ad81-bf74-e156" name="Crewed Weapon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Heavy Weapon Platform can only fire its ranged weapon if a Guardian from this unit is within 3&quot; and &apos;fires&apos; it instead of shooting any of their own weapons. A single Guardian cannot operate multiple Heavy Weapon Platforms in this way in a single turn.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c353-858f-36ed-23d4::247d-4b83-76dc-c636" name="Heavy Weapon Platform - Keywords" hidden="false" typeId="b900-0afb-e411-2cbb" typeName="Keywords">
+                  <characteristics>
+                    <characteristic name="Keywords (Faction)" typeId="6b92-2d97-5144-62bc">Aeldari, Asuryani, Warhost, &lt;CRAFTWORLD&gt;</characteristic>
+                    <characteristic name="Keywords (Basic)" typeId="ce6c-4765-4bb8-bd49">Infantry, Artillery, Guardian, Heavy Weapons Platform</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="2811-f4ce-d536-7f96" name="Starcannon" entryId="c353-858f-36ed-23d4::994d-77a0-41df-a797::9d6e-c587-51bc-ec7e::c628-671e-285b-b6bf" entryGroupId="c353-858f-36ed-23d4::994d-77a0-41df-a797::7d84-2892-c4e1-b2a1" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="c353-858f-36ed-23d4::994d-77a0-41df-a797::9d6e-c587-51bc-ec7e::8f17-5eac-b719-7788::14c5-7101-fb1d-0056" name="Starcannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="13.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="576a-5ad0-b96c-cc86" name="Heavy Weapons Platform" entryId="7a12-41e8-46eb-e204" primary="false"/>
+                <category id="5f63-e86b-60e2-2257" name="Artillery" entryId="ae37-74e2-8391-d0f8" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="91a9-217a-d8fc-9d65" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="3ed1-b56d-9995-1280" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="b7dc-6ac6-89ac-b36a" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="322f-ac4b-7c37-fdb1" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="e8d4-906b-81b3-e67e" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="b82b-a0b8-e7a6-c380" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="54a6-29a1-4bd0-a37e" name="Guardian" entryId="3d7b-e0f0-9b75-28e9" primary="false"/>
           </categories>
         </selection>
       </selections>
@@ -2550,19 +2471,19 @@
         <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017"/>
       </publications>
       <categories>
-        <category id="3a23-c601-b8a4-8b3b" name="Uncategorised" entryId="(No Category)" primary="false"/>
-        <category id="9d48-fd72-79c6-b7d1" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <category id="b9d1-8ea2-d26b-ebcf" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-        <category id="4b80-38a2-b22e-6e93" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-        <category id="7678-ea0b-369e-0d6c" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-        <category id="bb39-a439-3c3f-a4b1" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-        <category id="b76d-03fb-b050-2813" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-        <category id="1080-56e9-259d-3eb0" name="Flyer" entryId="e888-1504-aa61-95ff" primary="false"/>
-        <category id="c68d-e297-8348-3bfa" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="false"/>
-        <category id="7573-f960-6aab-14ad" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
-        <category id="fbf9-a2ef-10ba-dd04" name="Relic Elites" entryId="8d86-9490-0f7d-a5b5" primary="false"/>
-        <category id="f712-7db9-daa1-7d97" name="Relic Heavy Support" entryId="6c4c-a416-b8cb-c380" primary="false"/>
-        <category id="26d2-568b-a44d-1cc4" name="Relic HQ" entryId="655f-e142-dfa9-11a4" primary="false"/>
+        <category id="a96a-1045-3b69-2672" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="bac9-b209-d738-5445" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <category id="82a2-1051-b74e-d056" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <category id="3c6b-7a79-5729-6025" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <category id="27b1-2f59-7a9c-de02" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <category id="2c9c-7600-62b4-7691" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+        <category id="c02f-ae8a-bff4-2034" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <category id="8c74-6e93-265d-f1c7" name="Flyer" entryId="e888-1504-aa61-95ff" primary="false"/>
+        <category id="da30-feed-e88b-f7b7" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="false"/>
+        <category id="fc77-355b-eea4-31d8" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
+        <category id="e9bc-3bce-6c9e-59d7" name="Relic Elites" entryId="8d86-9490-0f7d-a5b5" primary="false"/>
+        <category id="54bf-90df-2f1a-0db5" name="Relic Heavy Support" entryId="6c4c-a416-b8cb-c380" primary="false"/>
+        <category id="81a8-814f-87ec-9c19" name="Relic HQ" entryId="655f-e142-dfa9-11a4" primary="false"/>
       </categories>
     </force>
     <force id="c4a4-d424-ebfd-3db3" name="Patrol Detachment" entryId="a0c7-2a71-bae0-215d" catalogueId="7d24-b92f-c5d5-3bf0" catalogueRevision="35" catalogueName="Aeldari - Harlequins">
@@ -2639,21 +2560,21 @@
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selection>
-                <selection id="b539-52fc-10f0-0b99" name="Neuro Disruptor" entryId="0613-e751-4b8c-9474::474d-902c-c235-98a6::dc08-7a78-9af8-9b6f" entryGroupId="0613-e751-4b8c-9474::f660-b809-e705-b54b" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
+                <selection id="b4ff-b333-2b73-0dae" name="Fusion Pistol" entryId="0613-e751-4b8c-9474::cde8-d244-a951-25ee::0ecc-ffa4-aa9f-a698" entryGroupId="0613-e751-4b8c-9474::f660-b809-e705-b54b" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
                   <profiles>
-                    <profile id="0613-e751-4b8c-9474::474d-902c-c235-98a6::02e8-42a6-9a75-eb40" name="Neuro Disruptor" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="0613-e751-4b8c-9474::cde8-d244-a951-25ee::4ec0-69af-033f-6087" name="Fusion Pistol" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a VEHICLE, this weapon has a Damage of 1.</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="7.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -2735,21 +2656,21 @@
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selection>
-                <selection id="274a-91be-2ec8-0154" name="Neuro Disruptor" entryId="0613-e751-4b8c-9474::474d-902c-c235-98a6::dc08-7a78-9af8-9b6f" entryGroupId="0613-e751-4b8c-9474::f660-b809-e705-b54b" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
+                <selection id="becd-bc76-0b2c-812b" name="Fusion Pistol" entryId="0613-e751-4b8c-9474::cde8-d244-a951-25ee::0ecc-ffa4-aa9f-a698" entryGroupId="0613-e751-4b8c-9474::f660-b809-e705-b54b" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
                   <profiles>
-                    <profile id="0613-e751-4b8c-9474::474d-902c-c235-98a6::02e8-42a6-9a75-eb40" name="Neuro Disruptor" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="0613-e751-4b8c-9474::cde8-d244-a951-25ee::4ec0-69af-033f-6087" name="Fusion Pistol" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a VEHICLE, this weapon has a Damage of 1.</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="7.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -2831,21 +2752,21 @@
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selection>
-                <selection id="9087-78bf-a265-a8e1" name="Neuro Disruptor" entryId="0613-e751-4b8c-9474::474d-902c-c235-98a6::dc08-7a78-9af8-9b6f" entryGroupId="0613-e751-4b8c-9474::f660-b809-e705-b54b" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
+                <selection id="f788-4cb4-1853-9914" name="Fusion Pistol" entryId="0613-e751-4b8c-9474::cde8-d244-a951-25ee::0ecc-ffa4-aa9f-a698" entryGroupId="0613-e751-4b8c-9474::f660-b809-e705-b54b" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
                   <profiles>
-                    <profile id="0613-e751-4b8c-9474::474d-902c-c235-98a6::02e8-42a6-9a75-eb40" name="Neuro Disruptor" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="0613-e751-4b8c-9474::cde8-d244-a951-25ee::4ec0-69af-033f-6087" name="Fusion Pistol" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a VEHICLE, this weapon has a Damage of 1.</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="7.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -2908,26 +2829,26 @@
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selection>
-                <selection id="5526-fd28-69a5-8e96" name="Neuro Disruptor" entryId="0613-e751-4b8c-9474::474d-902c-c235-98a6::dc08-7a78-9af8-9b6f" entryGroupId="0613-e751-4b8c-9474::f660-b809-e705-b54b" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
+                <selection id="e0da-8bd5-ded1-aa40" name="Fusion Pistol" entryId="0613-e751-4b8c-9474::cde8-d244-a951-25ee::0ecc-ffa4-aa9f-a698" entryGroupId="0613-e751-4b8c-9474::f660-b809-e705-b54b" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
                   <profiles>
-                    <profile id="0613-e751-4b8c-9474::474d-902c-c235-98a6::02e8-42a6-9a75-eb40" name="Neuro Disruptor" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="0613-e751-4b8c-9474::cde8-d244-a951-25ee::4ec0-69af-033f-6087" name="Fusion Pistol" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a VEHICLE, this weapon has a Damage of 1.</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="7.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selection>
-                <selection id="8872-9a12-e15c-0bba" name="Harlequin&apos;s Embrace" entryId="0613-e751-4b8c-9474::b40b-55db-715b-9fde::fddb-199b-84b4-280f" entryGroupId="0613-e751-4b8c-9474::1e01-a797-8a56-e845" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
+                <selection id="ef99-9233-26f7-edc0" name="Harlequin&apos;s Embrace" entryId="0613-e751-4b8c-9474::b40b-55db-715b-9fde::fddb-199b-84b4-280f" entryGroupId="0613-e751-4b8c-9474::1e01-a797-8a56-e845" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
                   <profiles>
                     <profile id="0613-e751-4b8c-9474::b40b-55db-715b-9fde::7bac-829a-6971-5b0c" name="Harlequin&apos;s Embrace" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
@@ -3004,40 +2925,40 @@
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selection>
-                <selection id="c8f0-c192-eec0-8799" name="Neuro Disruptor" entryId="0613-e751-4b8c-9474::474d-902c-c235-98a6::dc08-7a78-9af8-9b6f" entryGroupId="0613-e751-4b8c-9474::f660-b809-e705-b54b" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
+                <selection id="dabb-019b-0d50-8fd7" name="Fusion Pistol" entryId="0613-e751-4b8c-9474::cde8-d244-a951-25ee::0ecc-ffa4-aa9f-a698" entryGroupId="0613-e751-4b8c-9474::f660-b809-e705-b54b" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
                   <profiles>
-                    <profile id="0613-e751-4b8c-9474::474d-902c-c235-98a6::02e8-42a6-9a75-eb40" name="Neuro Disruptor" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="0613-e751-4b8c-9474::cde8-d244-a951-25ee::4ec0-69af-033f-6087" name="Fusion Pistol" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
-                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is a VEHICLE, this weapon has a Damage of 1.</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name="pts" typeId="points" value="7.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selection>
-                <selection id="b753-8c7c-a284-cbb7" name="Harlequin&apos;s Caress" entryId="0613-e751-4b8c-9474::71a2-5a14-f540-d48e::29c4-069f-247a-d22b" entryGroupId="0613-e751-4b8c-9474::1e01-a797-8a56-e845" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
+                <selection id="e835-0672-1762-2f22" name="Harlequin&apos;s Embrace" entryId="0613-e751-4b8c-9474::b40b-55db-715b-9fde::fddb-199b-84b4-280f" entryGroupId="0613-e751-4b8c-9474::1e01-a797-8a56-e845" publicationId="7d24-b92f-pubN65537" number="1" type="upgrade">
                   <profiles>
-                    <profile id="0613-e751-4b8c-9474::71a2-5a14-f540-d48e::19c2-98cb-b479-c686" name="Harlequin&apos;s Caress" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                    <profile id="0613-e751-4b8c-9474::b40b-55db-715b-9fde::7bac-829a-6971-5b0c" name="Harlequin&apos;s Embrace" publicationId="7d24-b92f-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                        <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
-                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
                         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="7.0"/>
+                    <cost name="pts" typeId="points" value="6.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -3056,12 +2977,12 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="82c2-7c60-3bcd-bb23" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="463f-d692-b84f-0373" name="Faction: &lt;Masque&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="877f-250e-2a91-b515" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="1071-6f5c-3bbb-0a87" name="Faction: Harlequins" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="7c7f-fe6c-f6bb-f4f8" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-            <category id="f097-0d41-d0c3-9bcd" name="Troupe" entryId="e1ba-8601-6249-d6fd" primary="false"/>
+            <category id="650c-23bb-fc19-54cd" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="e867-8af6-9b52-97e0" name="Faction: &lt;Masque&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="0af8-3863-8a4c-3315" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="baa8-6c2d-7cc1-c685" name="Faction: Harlequins" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="87d5-a776-3641-87e2" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="28bd-70aa-18e9-a71b" name="Troupe" entryId="e1ba-8601-6249-d6fd" primary="false"/>
           </categories>
         </selection>
         <selection id="7a50-3f51-c6da-8474" name="Skyweavers" entryId="49a8-3aee-1d20-78f9::50b6-34fa-10fe-d5be" publicationId="7d24-b92f-pubN65537" page="61" number="1" type="unit">
@@ -3467,13 +3388,13 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="8386-4fdc-b30b-4f28" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="01f1-0ff1-702a-9d24" name="Faction: &lt;Masque&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="3891-a1b5-c13a-8972" name="Faction: Harlequins" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="6cbd-8112-fcfe-fdf7" name="Biker" entryId="1c6f-0311-3eba-3180" primary="false"/>
-            <category id="af8a-70e7-0046-7336" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="208b-2f85-7267-f6c5" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
-            <category id="736f-7498-a5e0-2f2a" name="Skyweavers" entryId="bebc-c8e2-5bdf-e056" primary="false"/>
+            <category id="8160-b037-1b5d-9cee" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="8dc6-7097-be76-3339" name="Faction: &lt;Masque&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="2aae-fff4-5b19-2a59" name="Faction: Harlequins" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="d913-cd4d-4ff8-5102" name="Biker" entryId="1c6f-0311-3eba-3180" primary="false"/>
+            <category id="aa7e-bcd6-56ff-5d40" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="aacf-99f1-8ff7-c1de" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+            <category id="6e52-2691-a2ad-8b49" name="Skyweavers" entryId="bebc-c8e2-5bdf-e056" primary="false"/>
           </categories>
         </selection>
         <selection id="4c76-ef32-2579-4305" name="Masque Form" entryId="bc48-55f1-2870-e73b::1b5c-b38b-24a2-63d9" number="1" type="upgrade">
@@ -3499,7 +3420,7 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="36fe-d818-4e1c-f6f9" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+            <category id="b0f4-c0df-6817-19e5" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
           </categories>
         </selection>
         <selection id="3f71-defa-6ba1-0872" name="Shadowseer" entryId="eca5-3645-f706-51ea::2cb2-ebf2-3523-ad48" publicationId="7d24-b92f-pubN65537" page="57" number="1" type="unit">
@@ -3659,14 +3580,14 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="64d5-f26e-b373-bd94" name="Faction: &lt;Masque&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="97da-7e81-3076-80f4" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="445d-9806-96e4-41a5" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="6f03-871e-6273-52f1" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="2d02-d05d-4042-c6da" name="Faction: Harlequins" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="df88-c6ff-e2ab-12d4" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="db0c-7884-f6c6-07a2" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="a6a4-d6d6-f11a-f5f6" name="Shadowseer" entryId="e99c-c457-33b2-957f" primary="false"/>
+            <category id="34c6-9a76-1c32-36eb" name="Faction: &lt;Masque&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="11d6-1e9c-c97b-afc3" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="357c-84f7-133f-9ede" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="2956-a007-1c9d-0f2d" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="3eef-cb7a-cd13-c546" name="Faction: Harlequins" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="8d60-6d2c-bfda-6622" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="7dbd-1684-e422-a76a" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="bcc6-ffb2-1430-d91a" name="Shadowseer" entryId="e99c-c457-33b2-957f" primary="false"/>
           </categories>
         </selection>
         <selection id="65fa-fc0f-37af-be96" name="Starweaver" entryId="269a-456c-ad42-01a1::d96e-e7b4-6204-0b07" publicationId="7d24-b92f-pubN65537" page="63" number="1" type="unit">
@@ -3742,14 +3663,14 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="cc23-06ce-71e7-da5c" name="Faction: &lt;Masque&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="0cad-b00a-9a57-b084" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="036e-7d1b-0289-357c" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="true"/>
-            <category id="b2e2-0fe5-f77b-acdb" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="dd99-3262-1725-d3f9" name="Faction: Harlequins" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="2b02-2fb3-5348-5acf" name="Transport" entryId="6cc4-1b62-8e8a-05cd" primary="false"/>
-            <category id="10b3-f8e3-5868-a9b5" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
-            <category id="fa24-fc5c-80d4-c0a3" name="Starweaver" entryId="c5f9-ea01-8d12-908e" primary="false"/>
+            <category id="6093-8328-0a0e-7721" name="Faction: &lt;Masque&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="899f-15b2-7104-7274" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="d306-a95f-c82a-206b" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="true"/>
+            <category id="8cfd-0cfd-d5b5-5cb1" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="3a4f-69e5-5946-4ab5" name="Faction: Harlequins" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="cc71-9bbc-deaa-2eeb" name="Transport" entryId="6cc4-1b62-8e8a-05cd" primary="false"/>
+            <category id="058e-84e8-3f7a-3aee" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="93a3-5bf6-d23a-91d1" name="Starweaver" entryId="c5f9-ea01-8d12-908e" primary="false"/>
           </categories>
         </selection>
       </selections>
@@ -3774,19 +3695,19 @@
         <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017"/>
       </publications>
       <categories>
-        <category id="6cb6-0c08-7522-5de6" name="Uncategorised" entryId="(No Category)" primary="false"/>
-        <category id="b4b3-3a27-c298-136b" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
-        <category id="eda8-ed4b-a53b-8062" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
-        <category id="b6dc-1215-71c9-567b" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
-        <category id="a955-5648-90ef-71dc" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
-        <category id="094c-d4fa-bc19-0239" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
-        <category id="3007-d443-afc2-9305" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-        <category id="6d45-71d3-1b34-d91b" name="Flyer" entryId="e888-1504-aa61-95ff" primary="false"/>
-        <category id="5b45-c582-fdeb-95ba" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="false"/>
-        <category id="5def-6a77-92d1-62bc" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
-        <category id="0e1b-b805-6d16-256d" name="Relic Elites" entryId="8d86-9490-0f7d-a5b5" primary="false"/>
-        <category id="c31d-3007-0004-e212" name="Relic Heavy Support" entryId="6c4c-a416-b8cb-c380" primary="false"/>
-        <category id="f700-c0fc-a6da-0c8c" name="Relic HQ" entryId="655f-e142-dfa9-11a4" primary="false"/>
+        <category id="7ba4-c2c4-0065-5cfa" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="64d2-5289-c14b-a153" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <category id="4089-8a84-cbd8-83bd" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <category id="a61c-a8ac-75af-726b" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <category id="4bb8-14c7-38ba-1dcc" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <category id="cc95-32dd-804e-8559" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+        <category id="a777-d931-3454-6309" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <category id="58b2-c4e7-f2a2-f53b" name="Flyer" entryId="e888-1504-aa61-95ff" primary="false"/>
+        <category id="01c3-02d7-1b56-a2d2" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="false"/>
+        <category id="1696-f0e7-907d-b68b" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
+        <category id="895a-a1b1-a047-40bc" name="Relic Elites" entryId="8d86-9490-0f7d-a5b5" primary="false"/>
+        <category id="60b7-4e8f-6d72-62c7" name="Relic Heavy Support" entryId="6c4c-a416-b8cb-c380" primary="false"/>
+        <category id="33f6-8db2-07f6-f0f1" name="Relic HQ" entryId="655f-e142-dfa9-11a4" primary="false"/>
       </categories>
     </force>
   </forces>
