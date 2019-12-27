@@ -57,9 +57,9 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="fc4e-f964-6c1c-d92b" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="a893-f3a4-c505-f952" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="e825-8ddc-82bf-2709" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+            <category id="2dcb-301e-102a-65f7" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="299d-3d11-c5f0-aadf" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="c0ab-ceed-531b-574c" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
           </categories>
         </selection>
         <selection id="6f82-31d6-b366-e488" name="Dire Avengers" entryId="8a44-5aa8-9fc9-9efc::330c-452b-9923-5072" number="1" type="unit">
@@ -244,11 +244,11 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="6221-e59f-dfe0-ac90" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="4137-354e-a64c-5414" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
-            <category id="4234-98ef-2dcb-1e36" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
-            <category id="f658-2c36-42f1-6abc" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="af7d-bd32-4dd0-4790" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="b40c-fd88-e9d6-3443" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="025a-fbc8-2a1e-26c5" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
+            <category id="b539-be60-1549-02ec" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
+            <category id="a3ab-1685-65f9-807a" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="e5dd-ba0f-90d3-8ee0" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
           </categories>
         </selection>
         <selection id="59c8-5d8b-56f7-3bb3" name="Guardian Defenders" entryId="c353-858f-36ed-23d4::0341-e29a-e0ec-acd4" number="1" type="unit">
@@ -453,13 +453,13 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="2765-2343-a7b5-bef0" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="d137-3aa0-ca4b-a2a6" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="2678-4731-8ca5-4f7e" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="4e17-df36-2c73-4466" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="7e6c-9404-5f3c-ab76" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-            <category id="20c8-0eaf-10e3-4bca" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-            <category id="58ac-c4db-06a2-f048" name="Guardian" entryId="3d7b-e0f0-9b75-28e9" primary="false"/>
+            <category id="51e5-854f-d9de-50b8" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="eed6-2516-46fa-d6b7" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="6202-f2f4-59ee-336e" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="9c04-1f89-b88f-12ba" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="8651-e010-9754-b550" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="d8ca-9aa0-76e5-1102" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="2772-78c7-afca-1d0f" name="Guardian" entryId="3d7b-e0f0-9b75-28e9" primary="false"/>
           </categories>
         </selection>
         <selection id="ded8-0f16-6342-5873" name="Farseer" entryId="886e-7355-c1fd-a3ca::85ec-b193-d2df-32cc" number="1" type="model">
@@ -674,13 +674,13 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="57e7-602d-17ee-7d60" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="3656-5ed2-95bf-84be" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="95d0-d5a1-54e2-a5dc" name="Farseer" entryId="47a3-e3b2-a520-1a21" primary="false"/>
-            <category id="932a-eab0-6d53-ec0b" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="aab0-025c-6f6f-49aa" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="b2d1-6e53-a486-6b83" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="b1a3-074e-02e9-3a9c" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="5d39-27d4-4503-ad9b" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="57f0-4251-6e93-165d" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="f55c-1c3c-6ce9-70fc" name="Farseer" entryId="47a3-e3b2-a520-1a21" primary="false"/>
+            <category id="4004-bc8b-2d4b-639e" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="563f-5027-8a61-9e5e" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="4d39-8545-fb10-ae72" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="8692-082e-091a-e2b6" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
           </categories>
         </selection>
         <selection id="63e7-d771-1da1-edc9" name="Warlock" entryId="8e82-f338-b201-f9d5::1262-6fb1-b88d-e00e" number="1" type="model">
@@ -825,15 +825,15 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="8b74-9c24-2a9b-44b9" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="afe4-c4e3-e710-e825" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="7ab6-fbfc-f8c3-f524" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="d34b-0383-f691-a1ca" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="3475-863d-d737-4377" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="139f-9d22-977c-8eb2" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="24ff-c718-ad13-e252" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="287b-e36d-c250-d084" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-            <category id="5287-a53b-0e9f-1707" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
+            <category id="67f8-e418-30da-aa86" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="fb0d-4237-d7e6-6463" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="ef39-e6de-e21f-014e" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="a8f1-b61c-5f6f-2ad6" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="40e1-602f-a903-e89d" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="7b53-56fa-9eb1-b4ba" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="2392-2a74-25b4-d93a" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="ca0c-0767-6c04-1a76" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="7cde-0b6e-28bd-95e0" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
           </categories>
         </selection>
         <selection id="dc46-c1df-309d-2a47" name="Dire Avengers" entryId="8a44-5aa8-9fc9-9efc::330c-452b-9923-5072" number="1" type="unit">
@@ -1018,11 +1018,11 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="7bcd-9772-845e-22f0" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="a41a-545c-c1fd-2278" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
-            <category id="ff26-c8e2-02aa-4ca2" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
-            <category id="5657-d161-3e68-216b" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="9071-dc39-d28a-e171" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="ab6a-7fef-3da0-49fb" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="5d33-7549-e867-965a" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
+            <category id="3c10-1cb2-88cd-c03d" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
+            <category id="90fa-2b98-d171-f598" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="42a3-6407-bb30-a3d8" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
           </categories>
         </selection>
         <selection id="dbf0-5280-5f37-60a5" name="War Walkers" entryId="47e3-e33a-24f6-36fa::261a-f362-1a45-03c8" number="1" type="unit">
@@ -1148,13 +1148,13 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="50a4-8319-be7b-b8cc" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="e8b8-c879-159e-2907" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="ffb2-3fc7-5a31-29b1" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="e613-5644-26f2-7861" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
-            <category id="5481-04f5-c18a-5823" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
-            <category id="5ff3-cb74-cf5c-efdb" name="War Walker" entryId="ef1a-91be-f09a-37c0" primary="false"/>
-            <category id="8933-2445-9d11-e6fe" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="94a4-83d3-7bbe-34f4" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="e71d-9d66-0de3-4ba7" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="ffb3-922c-0bbf-8201" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="8ffb-bd19-f65e-0b63" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+            <category id="38fc-14e2-d1b6-afa5" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="5992-3e59-c541-9785" name="War Walker" entryId="ef1a-91be-f09a-37c0" primary="false"/>
+            <category id="8ca0-5957-4813-be54" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
           </categories>
         </selection>
       </selections>
@@ -1395,16 +1395,16 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="9b4f-f789-e760-5aa2" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="5764-8544-4db1-ca6d" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="e275-0687-053d-dfc8" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="5dd7-e170-c185-99c7" name="Biker" entryId="1c6f-0311-3eba-3180" primary="false"/>
-            <category id="ba87-d927-55e8-5058" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="8dad-8ced-579e-78ea" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="aed9-e264-0802-211c" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="9974-73ab-58ea-a83f" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="b0c0-b3cc-c030-89f2" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-            <category id="8aba-6fe6-60b6-aa14" name="Warlock Skyrunner" entryId="a5c6-ed78-9362-e64e" primary="false"/>
+            <category id="063a-42f1-1793-7104" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="8a80-a79b-aa96-a295" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="b836-7481-1b11-90ae" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="ea3b-fa35-3ff1-f456" name="Biker" entryId="1c6f-0311-3eba-3180" primary="false"/>
+            <category id="4068-b0f0-4a8a-f928" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="0fdc-e945-1806-5492" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="4f49-80c0-3379-ede6" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="b2d8-b96a-7113-a252" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="5fb5-b33c-0a45-4c9d" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="1707-6fe7-2e61-8b27" name="Warlock Skyrunner" entryId="a5c6-ed78-9362-e64e" primary="false"/>
           </categories>
         </selection>
         <selection id="435d-249b-34d4-16ec" name="Shining Spears" entryId="f2f5-308d-113d-e27e::3688-405f-fab9-af1c" number="1" type="unit">
@@ -1554,24 +1554,24 @@
                         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selection>
-                    <selection id="61b1-92ab-db3f-c100" name="Withdraw" entryId="f2f5-308d-113d-e27e::4315-6c6c-2603-5bbe" entryGroupId="f2f5-308d-113d-e27e::4377-5fc5-3d0d-9b54" number="1" type="upgrade">
+                    <selection id="865d-037f-81c1-fe9b" name="Exemplar of the Spear Shrine" entryId="f2f5-308d-113d-e27e::d255-0600-bcd2-97e7" number="1" type="upgrade">
+                      <costs>
+                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selection>
+                    <selection id="f724-56de-9809-e768" name="Skilled Rider" entryId="f2f5-308d-113d-e27e::1bc1-be3d-e297-7514" entryGroupId="f2f5-308d-113d-e27e::4377-5fc5-3d0d-9b54" number="1" type="upgrade">
                       <profiles>
-                        <profile id="f2f5-308d-113d-e27e::6f0e-f2a6-c37c-acc7" name="Withdraw" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="f2f5-308d-113d-e27e::17d1-df5d-f590-ebed" name="Skilled Rider" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
-                            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of the Fight phase, if this unit contains a Shining Spear Exarch and is within 1&quot; of any enemy models, this unit can make a Fall Back move of up to 6&quot; as if it were your Movement phase.</characteristic>
+                            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit’s Shining Spear Exarch has a 3+ invulnerable save against attacks made with ranged weapons.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
                         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                        <cost name="pts" typeId="points" value="0.0"/>
-                      </costs>
-                    </selection>
-                    <selection id="865d-037f-81c1-fe9b" name="Exemplar of the Spear Shrine" entryId="f2f5-308d-113d-e27e::d255-0600-bcd2-97e7" number="1" type="upgrade">
-                      <costs>
-                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
-                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="pts" typeId="points" value="0.0"/>
                       </costs>
                     </selection>
@@ -1644,14 +1644,14 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="9886-732b-6650-d7ed" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="d511-044f-2b72-72f8" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="6a97-6d67-3b6d-ba9b" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
-            <category id="778c-d145-a6b5-4a39" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="a217-dba7-9079-3825" name="Biker" entryId="1c6f-0311-3eba-3180" primary="false"/>
-            <category id="002d-d1e4-c9a7-d6bd" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
-            <category id="e86a-b92a-a62a-ff2b" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="8ede-8ae3-b14d-53cd" name="Shining Spears" entryId="a0e6-8e8a-b08e-d4a5" primary="false"/>
+            <category id="c577-41c0-4eed-edf9" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="bdaf-a70a-cb3d-9e84" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="e3b8-c88c-87fc-01ab" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
+            <category id="72ca-9ebf-fd59-cea8" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="31ac-78e7-2605-1108" name="Biker" entryId="1c6f-0311-3eba-3180" primary="false"/>
+            <category id="211e-aeda-c9e1-3501" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+            <category id="5e1f-6582-f617-b2d9" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="e5e6-d189-28d3-032d" name="Shining Spears" entryId="a0e6-8e8a-b08e-d4a5" primary="false"/>
           </categories>
         </selection>
         <selection id="9dea-e541-adbb-1946" name="Swooping Hawks" entryId="84b6-28db-20c8-b32b::0cc1-a676-d71f-af95" number="1" type="unit">
@@ -1826,15 +1826,15 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="4f75-3957-3681-008b" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="47d7-da70-b865-1097" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="5a93-06eb-e8d5-9681" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
-            <category id="ff95-0595-c6c6-2c6d" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="e084-f65c-796f-01bb" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
-            <category id="4cbf-f4d4-e069-f911" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="16d6-3ece-ae0b-b05c" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="96a0-4ef5-10aa-8b98" name="Jump Pack" entryId="f627-f23e-a3b4-dc2c" primary="false"/>
-            <category id="e587-9e2d-48d7-9611" name="Swooping Hawks" entryId="a7be-1381-4821-093a" primary="false"/>
+            <category id="94d2-6f5b-25d4-020c" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="72fe-75e3-727b-c50d" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="a2b4-e69a-c029-986b" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
+            <category id="ece9-2b9e-bb0b-7b84" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="786f-281c-b5ca-258b" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+            <category id="1826-0256-f0bf-a2e3" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="54d6-1daf-f8f2-b992" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="d799-a7e5-0901-eb14" name="Jump Pack" entryId="f627-f23e-a3b4-dc2c" primary="false"/>
+            <category id="b32a-8c31-f011-8286" name="Swooping Hawks" entryId="a7be-1381-4821-093a" primary="false"/>
           </categories>
         </selection>
         <selection id="b8d4-6981-651a-93f2" name="Craftworld Attribute" entryId="4fd1-68ba-8b83-0f50::d671-b181-714f-3831" number="1" type="upgrade">
@@ -1860,9 +1860,9 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="291a-4647-2a52-cba6" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="f7ec-064c-0bac-d79d" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="d12d-79c5-7970-c01b" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+            <category id="b40f-6ac9-c97e-42fc" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="f348-8813-875c-0a4f" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="6311-4693-c220-dbbb" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
           </categories>
         </selection>
         <selection id="dacc-b91f-c292-c213" name="Vypers" entryId="d600-9986-3690-2ceb::aa83-612d-5933-1f68" number="1" type="unit">
@@ -2144,15 +2144,15 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="de14-9224-85b5-2f8f" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="0777-40df-7033-ef6a" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="f831-8b86-d5b1-bd06" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="3851-15e2-8c29-6934" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
-            <category id="d3bf-3ae0-c383-60ae" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="4b6c-982e-2da5-75e3" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
-            <category id="187a-13f1-93c7-6766" name="Vypers" entryId="c794-b48b-81fd-1f99" primary="false"/>
-            <category id="2709-ccc9-df34-f860" name="Biker" entryId="1c6f-0311-3eba-3180" primary="false"/>
-            <category id="2158-937a-c094-052b" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="942d-3dee-7574-fa93" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="099c-09c8-dd57-f3b9" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="c36c-7a39-db8b-0b0f" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="4572-75cc-8433-8c98" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+            <category id="f677-0043-45ca-0631" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="de06-f2b2-b42a-aa91" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="3ce3-cdf8-34e0-bef3" name="Vypers" entryId="c794-b48b-81fd-1f99" primary="false"/>
+            <category id="5c4b-1207-8c97-5ecb" name="Biker" entryId="1c6f-0311-3eba-3180" primary="false"/>
+            <category id="fd05-df2c-c5e5-6a50" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
           </categories>
         </selection>
       </selections>
@@ -2337,15 +2337,15 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="8d33-d8f0-9759-4517" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="e40d-cb57-52ad-0e42" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="5ba3-6fb7-d2f9-90ea" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="d7dc-2b8c-eeb8-6fc0" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="e91f-90da-0336-21cf" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="22bb-9027-ca56-23e4" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="f58d-0456-ada0-1a24" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="71ff-fd10-a51d-c1db" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-            <category id="6402-3369-c9f4-0f0d" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
+            <category id="aeea-a4f4-ca4b-a9a9" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="d689-e05d-c212-0dd1" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="6e94-9b55-5fb6-352f" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="78e8-862d-5bfc-9c07" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="4c82-3a95-d884-02e7" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="55de-ec10-2439-e6ec" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="b358-7c75-7fc0-6bff" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="3a3d-71e0-4bab-c788" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="a8f7-8f11-4fc9-3d70" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
           </categories>
         </selection>
         <selection id="53c7-210a-b1d2-7f20" name="Warlock" entryId="8e82-f338-b201-f9d5::1262-6fb1-b88d-e00e" number="1" type="model">
@@ -2490,15 +2490,15 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="8a24-ba1e-91d3-53ef" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="c086-9d03-5cd5-9958" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="c75f-b30f-d479-d23c" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="6568-28da-0b3c-b7b8" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
-            <category id="7f16-183e-59f7-7b57" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-            <category id="ee32-09a3-6686-286a" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="705b-3e27-5679-4795" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="88c5-b423-fd52-d777" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-            <category id="381a-a322-67ce-ded9" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
+            <category id="01cc-0d56-1de9-b957" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="8dfb-80ba-8bae-4d75" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="cd05-e9a1-ba64-af3e" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="6de2-1b8c-81c4-a2a3" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="59d9-7c9a-774f-1717" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+            <category id="312d-d5c9-5f87-285d" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="62e7-ee44-0570-d825" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="28ea-855e-2f18-f784" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="32b2-cc98-604f-97ee" name="Warlock" entryId="3422-62ae-2c7f-ad67" primary="false"/>
           </categories>
         </selection>
         <selection id="9ed7-d18d-ce67-f3ed" name="Rangers" entryId="5fba-0b5d-2e8c-9218::5be4-5133-95e3-f6ef" number="1" type="unit">
@@ -2612,13 +2612,13 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="9f13-ae11-d1b0-1e36" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="0b8c-d3e3-316c-cc14" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="467e-9d0e-b13b-d7c6" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="d21c-a09e-c7c8-24e1" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="dbe6-0b1d-1028-3d96" name="Rangers" entryId="a814-fb66-a9ba-a309" primary="false"/>
-            <category id="15e2-b5e9-693e-7ee6" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-            <category id="35d6-cb63-746b-163c" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="1979-362c-0ee8-6d95" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="ead0-8ae2-d273-b853" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="2087-1be9-746a-a799" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="5922-390f-d9a7-50e2" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="907c-19b5-d2cf-798e" name="Rangers" entryId="a814-fb66-a9ba-a309" primary="false"/>
+            <category id="977e-34bf-836d-dcb9" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="21eb-c2c6-4f31-a641" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
           </categories>
         </selection>
         <selection id="9d29-e485-6041-24d2" name="Rangers" entryId="5fba-0b5d-2e8c-9218::5be4-5133-95e3-f6ef" number="1" type="unit">
@@ -2732,13 +2732,13 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="283f-35b5-f2b4-d7e5" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="e066-c720-326c-0027" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="4668-5df9-36ab-08aa" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="e8c3-4022-38f9-8902" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="7fcd-a3e6-dd78-7635" name="Rangers" entryId="a814-fb66-a9ba-a309" primary="false"/>
-            <category id="d86e-4324-ee73-51ba" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-            <category id="9eac-ebc4-bdc0-f7db" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="1c6e-530d-ee18-7576" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="a9bd-08b4-43ad-eeb2" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="55e7-273c-f745-3b12" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="d911-054f-334a-8b79" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="6111-97d4-c491-f795" name="Rangers" entryId="a814-fb66-a9ba-a309" primary="false"/>
+            <category id="6a2f-6f0b-78bb-c5ca" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="f48c-e8e1-bfd8-250c" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
           </categories>
         </selection>
         <selection id="fd6d-ffde-7160-31f6" name="Dire Avengers" entryId="8a44-5aa8-9fc9-9efc::330c-452b-9923-5072" number="1" type="unit">
@@ -2923,11 +2923,11 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="a2a4-19da-ad51-b688" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="5952-aeca-ac92-543b" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
-            <category id="7084-099f-4288-517e" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
-            <category id="a0c3-f193-9c99-4a30" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="6ade-9108-ec70-3560" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="83e8-506f-6a4c-b116" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="1cd8-bf4a-d45d-3b32" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
+            <category id="0b4f-8c07-e591-7952" name="Dire Avengers" entryId="f09d-c043-9331-30d7" primary="false"/>
+            <category id="fca9-667f-368c-91a2" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="11aa-8fd0-35a4-5577" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
           </categories>
         </selection>
         <selection id="5479-669b-d365-580a" name="Detachment CP" entryId="ec87-f19e-eee2-1ba8::9d97-2793-9882-d48a" number="1" type="upgrade">
@@ -2937,7 +2937,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
           <categories>
-            <category id="f7d6-e704-8458-d638" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+            <category id="5d6e-cefe-c459-329c" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
           </categories>
         </selection>
         <selection id="6bbe-bba1-c05d-0db3" name="Craftworld Attribute" entryId="4fd1-68ba-8b83-0f50::d671-b181-714f-3831" number="1" type="upgrade">
@@ -2963,9 +2963,9 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="dac7-a3c5-bd26-eddc" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="5bfc-fcc4-eb65-47ea" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="3c59-199a-efa0-295a" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+            <category id="8aef-5c1b-0f05-f0c0" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="7e4c-515a-185e-b1a6" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="ff53-ab5b-ec73-08a8" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
           </categories>
         </selection>
         <selection id="46ea-8b08-8afb-860c" name="Dark Reapers" entryId="318a-d086-9786-ad5c::269f-a845-3c8d-834f" number="1" type="unit">
@@ -3138,11 +3138,11 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="6f3f-d78f-2f03-c66d" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="293c-a267-b2d5-7008" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
-            <category id="4131-771c-86b1-161a" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
-            <category id="52e3-1672-2abd-72cc" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
-            <category id="4ad5-5250-9172-ccb6" name="Dark Reapers" entryId="d703-f7d7-7faf-735c" primary="false"/>
+            <category id="3a42-3eca-be2c-788a" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="f89a-9965-7048-10c7" name="Faction: Aspect Warrior" entryId="c1a6-1c19-4bba-5f28" primary="false"/>
+            <category id="5053-ad78-9287-048c" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+            <category id="823e-a206-8e32-e8f8" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="52d4-bc01-3e7e-3cd3" name="Dark Reapers" entryId="d703-f7d7-7faf-735c" primary="false"/>
           </categories>
         </selection>
         <selection id="1d6a-1dba-b940-9bdb" name="Night Spinner" entryId="1911-86ca-a442-7a5f::4ec9-0750-d5ce-32f6" number="1" type="model">
@@ -3265,21 +3265,21 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="1e8a-e771-eb0f-4c44" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="efbd-bdec-bcf2-a4dd" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="d779-cc12-fbf6-850d" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="1ce7-590b-27c1-4ca4" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="d60a-7cf2-8d27-cbda" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
-            <category id="6c14-8c07-b858-de84" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
-            <category id="6c70-7f4a-d818-192f" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
-            <category id="889c-5fa3-0295-2f01" name="Night Spinner" entryId="987a-6224-0f1d-72b9" primary="false"/>
-            <category id="e44d-86bc-5635-65c5" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="7105-1391-3de0-3cbb" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="5a87-ed08-5c5e-31de" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="96de-e4b2-fe36-5bcb" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="d0f7-1b9a-6106-db17" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
-            <category id="cc99-64a1-9ab1-289b" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
-            <category id="5fd6-8831-aebf-257f" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="31a5-300a-2950-1580" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="8548-bcf3-e88d-6257" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="d1e6-3f01-8316-7405" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="ba64-582e-ab3d-18de" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="fce4-c36d-4f79-1b9a" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+            <category id="1625-b56d-1cf1-afca" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="a1c6-a62a-833d-f13a" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
+            <category id="720e-3072-38de-20cb" name="Night Spinner" entryId="987a-6224-0f1d-72b9" primary="false"/>
+            <category id="b6fb-212b-f978-7d67" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="03fe-ec8c-454b-31c1" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="1c66-34e4-dd9a-bac5" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="d23a-da6d-e7a3-c648" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="005b-befd-5f8a-e8f5" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+            <category id="7186-6895-72f7-b4ca" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="f083-7431-97ac-e9fd" name="Faction: Warhost" entryId="663e-2a3e-e3a4-f250" primary="false"/>
           </categories>
         </selection>
         <selection id="69f3-69a0-3941-5163" name="Hemlock Wraithfighter" entryId="8269-f2a5-6748-2650::c537-8d87-968f-5355" number="1" type="model">
@@ -3489,17 +3489,17 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
           <categories>
-            <category id="6772-9d73-2c69-e9a3" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
-            <category id="0b07-1314-090d-6c06" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
-            <category id="f999-fdb4-d8b2-cab3" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
-            <category id="61a7-2a94-d5c6-a37b" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
-            <category id="8f2c-b204-aa0f-47b4" name="Flyer" entryId="e888-1504-aa61-95ff" primary="true"/>
-            <category id="b87d-14ce-b160-babb" name="Hemlock Wraithfighter" entryId="ab4c-b7dd-220a-7ba6" primary="false"/>
-            <category id="66ba-a2f4-936f-300a" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
-            <category id="8232-25f2-f0ec-e9c5" name="Faction: Spirit Host" entryId="9a3e-947f-26da-d343" primary="false"/>
-            <category id="b452-c6f1-5984-e705" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
-            <category id="026c-7679-78ac-30cb" name="Wraith Construct" entryId="be4f-b265-1ffd-36cd" primary="false"/>
-            <category id="1c6b-d95a-063e-e908" name="Aircraft" entryId="d569-3d56-cd24-6a31" publicationId="82b3-73d0-72b2-3180" primary="false"/>
+            <category id="847f-23bf-a1eb-621c" name="Faction: &lt;Craftworld&gt;" entryId="fb5a-2f35-6253-b891" primary="false"/>
+            <category id="1dde-a05d-a8e6-5406" name="Faction: Aeldari" entryId="05e9-e880-b1fb-ce90" primary="false"/>
+            <category id="7584-0213-5944-fde5" name="Faction: Asuryani" entryId="f406-94c7-4d73-4784" primary="false"/>
+            <category id="4163-1931-1eef-2c3c" name="Fly" entryId="3117-16d8-fcef-4f56" primary="false"/>
+            <category id="eee3-f118-c47d-796b" name="Flyer" entryId="e888-1504-aa61-95ff" primary="true"/>
+            <category id="fd0c-410b-3f79-330d" name="Hemlock Wraithfighter" entryId="ab4c-b7dd-220a-7ba6" primary="false"/>
+            <category id="a721-8394-1a23-3980" name="Psyker" entryId="e691-aad7-d21c-1023" primary="false"/>
+            <category id="8b44-50e5-8519-c52f" name="Faction: Spirit Host" entryId="9a3e-947f-26da-d343" primary="false"/>
+            <category id="3180-49e5-99de-13a7" name="Vehicle" entryId="c8fd-783f-3230-493e" primary="false"/>
+            <category id="0cff-6161-c2e0-980f" name="Wraith Construct" entryId="be4f-b265-1ffd-36cd" primary="false"/>
+            <category id="a525-747e-e260-5da9" name="Aircraft" entryId="d569-3d56-cd24-6a31" publicationId="82b3-73d0-72b2-3180" primary="false"/>
           </categories>
         </selection>
       </selections>
